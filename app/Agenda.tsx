@@ -1,11 +1,18 @@
-import Image from 'next/image'
-import logo from 'public/vector.png'
+import Element from "./Element"
 
 export default function Agenda() {
   return (
-    <div className='bg-sky-300 z-20 flex flex flex-col w-1/2 start-0'>
-        agenda
-
+    <div className='z-20 
+                    grid 
+                    grid-cols-2 
+                    md:grid-cols-3 
+                    lg:grid-cols-4 
+                    gap-5 m-5'
+                    >
+        <Element></Element>
+        <Element></Element>
+        <Element></Element>
+        <Element></Element>
     </div>
   )
 }
