@@ -1,5 +1,8 @@
 import './globals.css'
 import { Raleway , Bitter } from 'next/font/google'
+import Image from 'next/image'
+import logo from 'public/vector.png'
+import next from 'next/types';
 
 const raleway = Raleway({ subsets: ['latin'] });
 const bitter = Bitter({ subsets: ['latin'] });
@@ -16,7 +19,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-slate-200 font-thin ${raleway.className}`}>{children}</body>
+      <body className={`bg-white ${raleway.className}`}>
+        {children}
+        {/* <Image
+      className='absolute z-0'
+      src={logo}
+      width={500}
+      height={500}
+      layout="fixed"
+      alt="logo"
+      /> */}
+      </body>
 
     </html>
   )
