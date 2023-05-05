@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
         <div className='agenda text-right my-5'>
-          <div className="mx-96 text-xl border-black px-5 space-y-1">
+          <div className="px-96 text-xl border-black px-5 space-y-1">
             <div className='flex justify-end'>
               <p className='text-red-600'>FORMATION</p>
               <p className='text-cyan-200'>.SHIATSU/ALAIN.TAUSH/MANABU.WATANABE</p>
@@ -49,25 +49,25 @@ export default function Home() {
               <p className='text-neutral-400'>/03-06/2023</p>
             </div>
             <div className='flex justify-end'>
-              <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
+              <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP</p>
               <p className='text-neutral-400'>/MARUSKA.RONCHI/02-06/2023</p>
             </div>
           </div>
-          <div className="bg-white text-xl border-blue flex justify-end items-center mx-96 my-2">
-            <div className='flex justify-end border-blue-500 border-8 p-12 h-full text-center'>
-              <p className='text-cyan-200'>ÇA.SE.FAIT #2/ATELIER.DE.DANSE</p>
-              <p className='text-blue-500'>/ÉMILIA.GIUDICELLI</p>
-              <p className='text-neutral-400'>/07-05/2023</p>
+          <div className="text-xl flex justify-end my-2">
+            <div className='flex border-blue-500 border-8 py-5 px-3'>
+              <p className='self-center text-cyan-200'>ÇA.SE.FAIT #2/ATELIER.DE.DANSE</p>
+              <p className='self-center text-blue-500'>/ÉMILIA.GIUDICELLI</p>
+              <p className='self-center text-neutral-400'>/07-05/2023</p>
             </div>
-            {/* <Image
-              className='z-0 border-blue-500 border-y-8'
+            <Image
+              className='border-blue-500 border-y-8 bottom-0 right-0'
               src={corea}
-              width={300}
-              height={300}
+              height={500}
+              width={350}
               alt="logo"
-              /> */}
+              />
           </div>
-          <div className="mx-96 text-xl border-black px-5 bg-white">
+          <div className="px-96 text-xl border-black px-5 bg-white">
             <div className='flex justify-end'>
               <p className='text-cyan-200'>ÇA.SE.FAIT.#1/ATELIER.DE.DANSE/ÉMILIA.GIUDICELLI</p>
               <p className='text-neutral-400'>/26-03/2023</p>
