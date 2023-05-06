@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className='agenda text-right my-5'>
           <div className="px-96 text-xl border-black px-5 space-y-1">
-          <div className="hover:border-l-8 border-neutral-200 group relative duration-500">
+          <div className="hover:border-l-8 border-neutral-200 group relative duration-500 hover:cursor-pointer">
               <div className="right-0 hidden group-hover:inline absolute start-0 ease-in-out w-fit bg-white">
                 <Image
                   className=''
@@ -36,28 +36,28 @@ export default function Home() {
                     <p className='text-neutral-600'>avec Manabu Watanabe et Alain Taush</p> 
                   </div>
               </div>
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 ease-in-out'>
                 <p className='text-red-600'>FORMATION</p>
                 <p className='text-cyan-200'>.SHIATSU/ALAIN.TAUSH/MANABU.WATANABE</p>
                 <p className='text-neutral-400'>/2023/2024</p>
               </div>
             </div>
             <div className="hover:border-l-8 border-neutral-200">
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
                 <p className='text-cyan-200'>INITIATION</p>
                 <p className='text-red-600'>.SHIATSU</p>
                 <p className='text-cyan-200'>/ALAIN.TAUSH</p>
                 <p className='text-red-600'>/MANABU.WATANABE</p>
                 <p className='text-neutral-400'>/02-07/2023</p>
               </div>
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
                 <p className='text-cyan-200'>INITIATION.SHIATSU</p>
                 <p className='text-red-600'>/ALAIN.TAUSH</p>
                 <p className='text-cyan-200'>/MANABU.WATANABE</p>
                 <p className='text-neutral-400'>/01-07/2023</p>
               </div>
             </div>
-            <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+            <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
               <p className='text-cyan-200'>ÇA.SE.FAIT #3/ATELIER.DE.DANSE/ÉMILIA.GIUDICELLI</p>
               <p className='text-neutral-400'>/11-06/2023</p>
             </div>
@@ -76,15 +76,15 @@ export default function Home() {
                     <p className='text-neutral-600'>avec Maruska Ronchi</p> 
                   </div>
               </div>
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 border-dotted ease-in-out'>
                 <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
                 <p className='text-neutral-400'>/04-06/2023</p>
               </div>
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
                 <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
                 <p className='text-neutral-400'>/03-06/2023</p>
               </div>
-              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted duration-300 ease-in-out'>
+              <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
                 <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP</p>
                 <p className='text-neutral-400'>/MARUSKA.RONCHI/02-06/2023</p>
               </div>
