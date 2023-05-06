@@ -21,14 +21,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-white ${raleway.className}`}>
         {children}
-        {/* <Image
-      className='absolute z-0'
-      src={logo}
-      width={500}
-      height={500}
-      layout="fixed"
-      alt="logo"
-      /> */}
       </body>
 
     </html>
