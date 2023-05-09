@@ -8,13 +8,14 @@ import Emilia3 from './Emilia3'
 import Emilia1 from './Emilia1'
 import Antonia from './Antonia'
 import Footer from './Footer'
+import NextEventSm from './NextEventSm'
 
 const raleway = Raleway({ subsets: ['latin'] });
 
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-12 flex flex-col">
+    <main className="min-h-screen pt-12 flex flex-col space-y-12">
       {/* <div className="flex flex-col justify-center font-medium">
         <Studio></Studio>
         <div className='agenda text-right my-5'>
@@ -39,6 +40,7 @@ export default function Home() {
       <Footer></Footer> */}
 
       <Studio></Studio>
+      <NextEventSm/>
 
     </main>
   )
