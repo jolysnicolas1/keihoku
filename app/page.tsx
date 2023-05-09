@@ -9,6 +9,7 @@ import Emilia1 from './Emilia1'
 import Antonia from './Antonia'
 import Footer from './Footer'
 import NextEventSm from './NextEventSm'
+import Link from 'next/link';
 
 const raleway = Raleway({ subsets: ['latin'] });
 
@@ -39,9 +40,10 @@ export default function Home() {
 
       <Footer></Footer> */}
 
-      <Studio></Studio>
-      <NextEventSm/>
 
+      <Link href="/butoh">
+        <NextEventSm/>
+      </Link>;
     </main>
   )
 }
