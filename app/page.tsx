@@ -16,7 +16,7 @@ const raleway = Raleway({ subsets: ['latin'] });
 export default function Home() {
   return (
     <main className="h-screen pt-12 flex flex-col justify-between">
-      <div className="flex flex-col justify-center font-medium">
+      {/* <div className="flex flex-col justify-center font-medium">
         <Studio></Studio>
         <div className='agenda text-right my-5'>
 
@@ -37,7 +37,10 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer></Footer>
+      <Footer></Footer> */}
+
+      <Studio></Studio>
+
     </main>
   )
 }
