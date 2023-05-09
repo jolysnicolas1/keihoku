@@ -1,6 +1,5 @@
 import { Raleway } from 'next/font/google'
 import NextEvent from './NextEvent'
-import NextEventSm from './NextEventSm'
 import Studio from './Studio'
 import InitiationShiatsu from './InitiationShiatsu'
 import FormationShiatsu from './FormationShiatsu'
