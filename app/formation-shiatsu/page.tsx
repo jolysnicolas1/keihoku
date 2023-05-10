@@ -1,5 +1,5 @@
 import Image from "next/image"
-import maru from 'public/maru.webp'
+import manabu from 'public/manabu.webp'
 import Footer from "../Footer"
 import Link from "next/link"
 
@@ -10,36 +10,33 @@ export default function Home() {
         <div className="flex flex-col md:flex-row border-blue-500 border-t-4 border-l-4  justify-between sm:p-5 md:p-0 xl:ml-60">
             <div className="flex flex-col align-center text-xl space-y-3 p-4 md:pl-12 md:justify-center md:w-fit md:grow">
                 <div className="font-medium lg:hidden">
-                    <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH</p>
-                    <p className='text-blue-500'>.WORKSHOP/MARUSKA.RONCHI</p>
+                    <p className='text-neutral-400'>FORMATION<strong className="font-medium text-cyan-200">.SHIATSU</strong></p>
+                    <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUSH</strong>/MANABU.WATANABE</p>
                 </div>
                 <div className="font-medium hidden lg:flex">
-                    <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH</p>
-                    <p className='text-blue-500'>.WORKSHOP/MARUSKA.RONCHI</p>
+                    <p className='text-cyan-200'>FORMATION.SHIATSU</p>
+                    <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUSH</strong>/MANABU.WATANABE</p>
                 </div>
                 <div className="text-sm pl-6 -space-y-1">
-                    <p>Vendredi 02 juin de <strong className="font-medium text-blue-500">18:00 à 21:00</strong></p>
-                    <p>Samedi 03 juin de 10:00 à 17:30</p>
-                    <p>Dimanche 04 juin de 10:00 à 17:30</p>
-                </div>
-                <div className="text-sm -space-y-2">
-                    <p className="text-red-500">tarif</p>
-                    <p className="pl-2">110 euros (si nécessaire, réduit 75e)</p>
+                    
+                    <p className="">CYCLE 1 - <strong className="text-neutral-400">12 jours</strong></p>
+                    <p className="">de <strong className="text-blue-500">septembre 2023 à mai 2024</strong></p>
                 </div>
                 <div className="text-sm -space-y-2 pb-2 sm:pb-4">
-                    <p className="text-red-500">inscriptions</p>
+                    <p className="text-red-500">inscriptions, informations</p>
                     <p className="pl-2">keihuko.studio@gmail.com</p>
                 </div>
+                <strong className="text-blue-500"></strong>
             </div>
             <div className="flex flex-col items-center min-w-[300px]">
                 <Image
                     className=''
-                    src={maru}
+                    src={manabu}
                     height={500}
                     width={500}
                     alt="maru"
                     />
-                <Link className="text-sm underline" href="https://maruskaronchi.com">maruskaronchi.com</Link>;
+                <Link className="text-sm underline" href="https://sushiatsu.fr/">sushiatsu.fr</Link>;
             </div>
         </div>
 
