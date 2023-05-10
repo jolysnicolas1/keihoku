@@ -17,7 +17,7 @@ export default function Home() {
                     <p className='text-blue-500'>.DE.DANSE/ÉMILIA.GIUDICELLI</p>
                 </div>
                 <div className="text-sm pl-6 -space-y-1">
-                    <p>Dimanche 11 juin de <strong className="font-medium text-blue-500">10:00 À 18:00</strong></p>
+                    <p>Vendredi 11 juin de <strong className="font-medium text-blue-500">10:00 À 18:00</strong></p>
                 </div>
                 <div className="text-sm -space-y-2">
                     <p className="text-red-500">tarif</p>
@@ -43,39 +43,39 @@ export default function Home() {
         <div className="p-5 md:pr-12 xl:px-44 2xl:px-60">
             <h2>ÇA SE FAIT #1</h2>
             <p className="font-bold">Être mu.e, être dansé.e, être vu.e</p>
-            <p>Biodynamique d’un corps qui respire. Voir ce qui est à l'œuvre dans mon
+            <p>Biodynamique d&apos;un corps qui respire. Voir ce qui est à l&apos;  œuvre dans mon
 corps, ici-et-maintenant.</p>
-            <p>Entrevoir les multiples ressources dont je suis constitué.e, qu’elles
+            <p>Entrevoir les multiples ressources dont je suis constitué.e, qu&apos;elles
 soient tissulaires, mémorielles, neuronales, organiques, ou imaginales.
-Je me contacte, j’écoute, je rentre en mouvement, ça informe mon corps
+Je me contacte, j&apos;écoute, je rentre en mouvement, ça informe mon corps
 spontané, ça danse.</p>
-            <p>Rejoindre alors un état où la danse devance mon mental d’une fraction de
+            <p>Rejoindre alors un état où la danse devance mon mental d&apos;une fraction de
 seconde.</p>
             <p>Se tenir là, en contemplation active de ce fil-ci qui se poursuit en
 relation à du regard, du son ou des silences.</p>
-            <p>S’y préparer avec soin et plaisir.</p>
+            <p>S&apos;y préparer avec soin et plaisir.</p>
             <p>Nous travaillerons la présence à soi.
 </p>
             <p>Je me tiens debout. Je respire, je suis verticalisé.e. par la gravité,
 et là, à un moment, il va se passer quelque chose. Ma tête me gratte.
-Alors que mes doigts s’approchent de mon cuir chevelu, une myriade de
+Alors que mes doigts s&apos;approchent de mon cuir chevelu, une myriade de
 petites chaînes musculaires se mobilise. Laisser ce fil se dérouler.
-Puis le cœur prend le relais dans ce qu’il a de pulse, de joies et de
+Puis le cœur prend le relais dans ce qu&apos;il a de pulse, de joies et de
 chagrin. Mon récit intérieur se fait gestes et images, loi et
 déconstruction, plaisir et contretemps, contrepoids et envol, harmonieux
 ou illisible.</p>
             <p>Je me tiens debout. Je respire, je suis verticalisé.e. par la gravité,
 et là, à un moment, il va se passer quelque chose. Ma tête me gratte.
-Alors que mes doigts s’approchent de mon cuir chevelu, une myriade de
+Alors que mes doigts s&apos;approchent de mon cuir chevelu, une myriade de
 petites chaînes musculaires se mobilise. Laisser ce fil se dérouler.
-Puis le cœur prend le relais dans ce qu’il a de pulse, de joies et de
+Puis le cœur prend le relais dans ce qu&apos;il a de pulse, de joies et de
 chagrin. Mon récit intérieur se fait gestes et images, loi et
 déconstruction, plaisir et contretemps, contrepoids et envol, harmonieux
 ou illisible.</p>
-            <p>Prendre son temps dans l’improvisation tout en pratiquant l’écoute
+            <p>Prendre son temps dans l&apos;improvisation tout en pratiquant l&apos;écoute
 active. Le présent toujours le présent.</p>
-            <p>La disponibilité à soi se prépare, se teste, s’expérience, se rétracte
-ou s’agrandit.</p>
+            <p>La disponibilité à soi se prépare, se teste, s&apos;expérience, se rétracte
+ou s&apos;agrandit.</p>
             <p>Ne pas avoir à produire de danse. Ne pas avoir à réfléchir sa danse.
 Rien à inventer.</p>
             <p>Un endroit risqué et confortable, parfois émouvant.</p>
