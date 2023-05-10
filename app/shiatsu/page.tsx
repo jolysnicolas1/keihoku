@@ -1,5 +1,6 @@
 import Image from "next/image"
 import maru from 'public/maru.webp'
+import Footer from "../Footer"
 import Link from "next/link"
 
 
