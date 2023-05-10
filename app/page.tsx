@@ -4,13 +4,13 @@
 import NextEventSm from './NextEventSm'
 import Shiatsu from './Shiatsu'
 import Link from 'next/link';
-import CustomCursor from './Cursor';
+// import CustomCursor from './Cursor';
 
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-12 flex flex-col cursor-move text-cyan-200">
-      <CustomCursor />
+    <main className="min-h-screen pt-12 flex flex-col text-cyan-200">
+      {/* <CustomCursor /> */}
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
         <Link href="/formation-shiatsu">
           <div className='flex flex-col md:flex-row items-end'>
