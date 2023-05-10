@@ -12,7 +12,7 @@ export default function Home() {
             <p className=''><strong className='text-cyan-200'>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/09/2023-05/2024</strong></p>
           </div>
         </Link>
-        <Link href="/formation-shiatsu">
+        <Link href="/initiation-shiatsu">
           <div className='flex flex-col items-end'>
             <p className=''> <strong className='text-cyan-200'>INITIATION.SHIATSU</strong><strong className='text-blue-500'>/ALAIN.TAUSH</strong></p>
             <p className=''><strong className='text-blue-500'>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/01-07/023/02-07/023</strong></p>
