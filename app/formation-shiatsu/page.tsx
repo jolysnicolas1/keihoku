@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         <div className="p-5 md:pr-12 xl:px-44 2xl:px-60">
-            <p>
+            {/* <p>
             All cells in our body are made up of molecules, which are themselves made up of atoms, that are bonded together. These molecules are composing and recomposing theirselves, by breaking and changing the way the atoms are bound together, in an eternal dance, which is becoming possible through the space and energy inbetween each particle. As human beings, we can perceive this empty space and energy inside us. At the same time life its a continuous exchange of giving and receiving. As the atoms are connected
 into the form of a molecule, bonds with other people are important and vital for our human life. To recognize and realize this bonding we also need space (big or small as it is) and silence. In the stillness we can feel this eternal dance of life. In this workshop we like to experiment with new ways of creation of our personal movement, exploring our body as matter and feeling the empty space and moments of silence between movements. Guided explorations with concrete and abstract images will help us to find new ways and new interaction with the space and other people. The silence inbetween movements is the door opener of new possibilities. Each one of us is a beautiful form of life. In the nature there are so many expressions of life, each one different, each one so unique and beautiful. Lets find our form, our unique quality and movement and bring this as a gift to the others. Lets feel the ties that bind us.
             </p>
@@ -50,7 +50,7 @@ into the form of a molecule, bonds with other people are important and vital for
             <p>
                 Maruska Ronchi is an independent butoh dancer, choreographer, performer and teacher. Graduated in Contemporary dance, she discovered butoh in 2009 with Atsushi Takenouchi and, since then, researching in butoh under his guidance, becoming his assistant in JINEN butoh school in Italy where she had the possibility to dive deeply into butoh practice for 12 years. Besides that, she met many other important teachers, among others, Yoshito Ohno, Masaki Iwana, Yumiko Yoshioka, Minako Seki, Carlotta Ikeda, Seisaku, Sankai Yuku. She is developing her own approach to the creative process as an alchemical process of transmutation; she is collaborating with international artists, founding HAIKUMU (with Ursula Pehlke and William Lopes), Butoh_Pan Group, participating to Sense-Ability a collaborative online experiment with 14 artists initiated by Gio -Hyunju Shin), and Hafjor-Oceanus artistic residesidency and festival in Iceland, to make and developing original way for new creations. She danced under the direction of Atsushi Takenouchi, Joan Laage, and Seisaku. Besides her dance activities as a performer, she is deeply engaged in teaching through classes and workshops all over the world.
             </p>
-        </div>
+        </div> */}
       </main>
     )
   }
