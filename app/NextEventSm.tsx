@@ -3,7 +3,7 @@ import maru from 'public/maru.webp'
 
 export default function NextEvent() {
   return (
-        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-72">
+        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96">
             <div className="grow p-2 flex md:justify-center">
                 <div className="font-medium md:hidden">
                     <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH</p>
@@ -56,8 +56,8 @@ export default function NextEvent() {
                 <Image
                     className='md:border-l-4 md:border-blue-500'
                     src={maru}
-                    height={500}
-                    width={500}
+                    height={300}
+                    width={300}
                     alt="maru"
                     />
             </div>

@@ -9,9 +9,9 @@ import CustomCursor from './Cursor';
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-12 flex flex-col space-y-12 xl:space-y-4 cursor-move text-cyan-200">
+    <main className="min-h-screen pt-12 flex flex-col cursor-move text-cyan-200">
       <CustomCursor />
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 xl:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24">
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 xl:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
         <Link href="/formation-shiatsu">
           <div className='flex flex-col xl:flex-row items-end'>
             <p className=''> <strong className='text-red-600'>FORMATION.SHIATSU</strong><strong className=''>/ALAIN.TAUSH</strong></p>
@@ -38,7 +38,7 @@ export default function Home() {
       <Link href="/butoh">
         <NextEventSm/>
       </Link>
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 xl:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24">
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 xl:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
         <Link href="/ca-se-fait3">
           <div className='flex flex-col xl:flex-row items-end'>
             <p className=''> <strong className=''>ÇA.SE.FAIT #2</strong><strong className=''>/ATELIER.DE.DANSE</strong></p>
