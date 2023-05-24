@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
         <Link href="/formation-shiatsu" className='flex relative group -space-y-2 duration-300 w-full justify-end'>
           <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=' text-red-600'>FORMATION.SHIATSU</strong><strong className=''>/ALAIN.TAUSH</strong></p>
+            <p className=''> <strong className=' text-red-600'>FORMATION.SHIATSU</strong><strong className=''>/ALAIN.TAUCH</strong></p>
             <p className=''><strong className=''>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/09/2023-05/2024</strong></p>
           </div>
           <div className="flex flex-col absolute hidden absolute group-hover:block -top-16 left-16 bg-white drop-shadow-2xl rounded-md p-12">
@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="flex flex-col align-center text-xl space-y-3">
                   <div className="font-medium">
                       <p className='text-neutral-400'>FORMATION<strong className="font-medium text-cyan-200">.SHIATSU</strong></p>
-                      <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUSH</strong>/MANABU.WATANABE</p>
+                      <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUCH</strong>/MANABU.WATANABE</p>
                   </div>
                   <div className="text-sm pl-6 -space-y-1">
                       
@@ -49,11 +49,11 @@ export default function Home() {
         </Link>
         <Link href="/initiation-shiatsu">
           <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>INITIATION.SHIATSU</strong><strong className=''>/ALAIN.TAUSH</strong></p>
+            <p className=''> <strong className=''>INITIATION.SHIATSU</strong><strong className=''>/ALAIN.TAUCH</strong></p>
             <p className=''><strong className='text-blue-500'>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/01-07/023/02-07/023</strong></p>
           </div>
           <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className='text-neutral-400'>INITIATION.SHIATSU</strong><strong className='text-blue-500'>/ALAIN.TAUSH</strong></p>
+            <p className=''> <strong className='text-neutral-400'>INITIATION.SHIATSU</strong><strong className='text-blue-500'>/ALAIN.TAUCH</strong></p>
             <p className=''><strong className=''>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/02-07/023/02-07/023</strong></p>
           </div>
         </Link>
