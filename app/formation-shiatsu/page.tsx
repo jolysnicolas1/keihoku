@@ -24,7 +24,7 @@ export default function Home() {
                 </div>
                 <div className="text-sm -space-y-2 pb-2 sm:pb-4">
                     <p className="text-red-500">inscriptions, informations</p>
-                    <p className="pl-2">keihuko.studio@gmail.com</p>
+                    <p className="pl-2">keihoku.studio@gmail.com</p>
                 </div>
                 <strong className="text-blue-500"></strong>
             </div>
