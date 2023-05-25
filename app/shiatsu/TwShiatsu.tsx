@@ -38,10 +38,10 @@ export default function TwShiatsu() {
               <p className="text-base font-semibold leading-7 text-indigo-600">Manabu Watanabe & Alain Tauch</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Shiatsu</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Manabu Watanabe et Alain Tauch pratiquent et enseignent le Shiatsu et L'aunkai
+                Manabu Watanabe et Alain Tauch pratiquent et enseignent le Shiatsu et L&lsquo;Aunkai
               </p>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Plus d'information sur leur site 
+                Plus d&lsquo;information sur leur site 
                 <Link href='https://sushiatsu.fr/' className="font-bold hover:text-gray-500 duration-500"> sushiatsu.fr
                 </Link>
               </p>
@@ -65,7 +65,7 @@ export default function TwShiatsu() {
                 Bunka (文化)
               </p>
                 <em>Éléments de culture japonaise pour mieux appréhender la pratique du shiatsu et des arts martiaux traditionnels japonais.</em>
-              <p className="mt-6">
+              <p className="mt-6 font-bold">
                 Stage de découverte du Shiatsu et Aunkai.
               </p>
               <p className="mt-6">
@@ -105,7 +105,7 @@ export default function TwShiatsu() {
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">1200 euros par année (12 journées)</strong> Engagement sur l'année (si nécessaire tarif réduit sur demande)
+                    <strong className="font-semibold text-gray-900">1200 euros par année (12 journées)</strong> Engagement sur l&lsquo;année (si nécessaire tarif réduit sur demande)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
