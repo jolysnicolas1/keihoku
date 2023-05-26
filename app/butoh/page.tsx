@@ -9,11 +9,11 @@ export default function Home() {
         <div className="flex flex-col md:flex-row border-blue-500 border-t-4 border-l-4  justify-between sm:p-5 md:p-0 xl:ml-60">
             <div className="flex flex-col align-center text-xl space-y-3 p-4 md:pl-12 md:justify-center md:w-fit md:grow">
                 <div className="font-medium lg:hidden">
-                    <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH</p>
+                    <p className='text-cyan-400'>MOLECULAR.DANCE/BUTOH</p>
                     <p className='text-blue-500'>.WORKSHOP/MARUSKA.RONCHI</p>
                 </div>
                 <div className="font-medium hidden lg:flex">
-                    <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH</p>
+                    <p className='text-cyan-400'>MOLECULAR.DANCE/BUTOH</p>
                     <p className='text-blue-500'>.WORKSHOP/MARUSKA.RONCHI</p>
                 </div>
                 <div className="text-sm pl-6 -space-y-1">

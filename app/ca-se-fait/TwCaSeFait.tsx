@@ -62,9 +62,7 @@ export default function TwCaSeFait() {
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Ça se fait #3</h2>
    
               <p className="mt-6">
-                Atelier de danse
-              </p>
-              <p className="mt-6">
+                <span className="font-semibold">Atelier de danse</span><br/>
                 Accompagnement guitare par Grégoire Paultre
               </p>
               <p className="mt-6">
@@ -74,17 +72,17 @@ export default function TwCaSeFait() {
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">Dimanche 11 juin</strong> De 10:00 à 18:00
+                    <strong className="font-semibold text-gray-900">Dimanche 11 juin</strong><br/> De 10:00 à 18:00
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">40 euros</strong> (Si nécessaire tarif réduit 30 euros)
+                    <strong className="font-semibold text-gray-900">40 euros</strong><br/> (Si nécessaire tarif réduit 30 euros)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">à la Dérive</strong> Pont Menou (29620)
+                    <strong className="font-semibold text-gray-900">à la Dérive</strong><br/> Pont Menou (29620)
                   </span>
                 </li>
               </ul>

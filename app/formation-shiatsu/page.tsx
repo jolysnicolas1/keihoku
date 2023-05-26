@@ -10,12 +10,12 @@ export default function Home() {
         <div className="flex flex-col md:flex-row border-blue-500 border-t-4 border-l-4  justify-between sm:p-5 md:p-0 xl:ml-60">
             <div className="flex flex-col align-center text-xl space-y-3 p-4 md:pl-12 md:justify-center md:w-fit md:grow">
                 <div className="font-medium lg:hidden">
-                    <p className='text-neutral-400'>FORMATION<strong className="font-medium text-cyan-200">.SHIATSU</strong></p>
-                    <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUCH</strong>/MANABU.WATANABE</p>
+                    <p className='text-neutral-400'>FORMATION<strong className="font-medium text-cyan-400">.SHIATSU</strong></p>
+                    <p className='text-blue-500'><strong className="font-medium text-cyan-400">/ALAIN.TAUCH</strong>/MANABU.WATANABE</p>
                 </div>
                 <div className="font-medium hidden lg:flex">
-                    <p className='text-cyan-200'>FORMATION.SHIATSU</p>
-                    <p className='text-blue-500'><strong className="font-medium text-cyan-200">/ALAIN.TAUCH</strong>/MANABU.WATANABE</p>
+                    <p className='text-cyan-400'>FORMATION.SHIATSU</p>
+                    <p className='text-blue-500'><strong className="font-medium text-cyan-400">/ALAIN.TAUCH</strong>/MANABU.WATANABE</p>
                 </div>
                 <div className="text-sm pl-6 -space-y-1">
                     

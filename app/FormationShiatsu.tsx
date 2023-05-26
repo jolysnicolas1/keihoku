@@ -1,11 +1,5 @@
 import Image from 'next/image'
-import { Raleway } from 'next/font/google'
 import manabu from 'public/manabu.webp'
-
-
-
-const raleway = Raleway({ subsets: ['latin'] });
-
 
 export default function FormationShiatsu() {
   return (
@@ -26,7 +20,7 @@ export default function FormationShiatsu() {
         </div>
         <div className='flex justify-end hover:border-b-2 border-blue-500 ease-in-out'>
             <p className='text-red-600'>FORMATION</p>
-            <p className='text-cyan-200'>.SHIATSU/ALAIN.TAUCH/MANABU.WATANABE</p>
+            <p className='text-cyan-400'>.SHIATSU/ALAIN.TAUCH/MANABU.WATANABE</p>
             <p className='text-neutral-400'>/2023/2024</p>
         </div>
     </div>

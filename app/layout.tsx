@@ -1,11 +1,10 @@
 import './globals.css'
-import { Raleway , Bitter } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 import Studio from './Studio';
 import Footer from './Footer';
 import Link from 'next/link';
 
 const raleway = Raleway({ subsets: ['latin'] });
-const bitter = Bitter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',

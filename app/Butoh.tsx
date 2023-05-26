@@ -1,11 +1,5 @@
 import Image from 'next/image'
-import { Raleway } from 'next/font/google'
 import maru from 'public/maru.webp'
-
-
-
-const raleway = Raleway({ subsets: ['latin'] });
-
 
 export default function Butoh() {
   return (
@@ -25,15 +19,15 @@ export default function Butoh() {
         </div>
     </div>
     <div className='flex justify-end hover:border-b-2 border-blue-500 border-dotted ease-in-out'>
-      <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
+      <p className='text-cyan-400'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
       <p className='text-neutral-400'>/04-06/2023</p>
     </div>
     <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
-      <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
+      <p className='text-cyan-400'>MOLECULAR.DANCE/BUTOH.WORKSHOP/MARUSKA.RONCHI</p>
       <p className='text-neutral-400'>/03-06/2023</p>
     </div>
     <div className='flex justify-end hover:border-b-2 border-blue-500 hover:border-dotted ease-in-out'>
-      <p className='text-cyan-200'>MOLECULAR.DANCE/BUTOH.WORKSHOP</p>
+      <p className='text-cyan-400'>MOLECULAR.DANCE/BUTOH.WORKSHOP</p>
       <p className='text-neutral-400'>/MARUSKA.RONCHI/02-06/2023</p>
     </div>
   </div>

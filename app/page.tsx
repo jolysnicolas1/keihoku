@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-12 flex flex-col text-cyan-200">
+    <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
         <Link href="/shiatsu" className='flex relative group -space-y-2 duration-300 w-full justify-end'>
           <div className='flex flex-col md:flex-row items-end'>
