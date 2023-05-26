@@ -96,11 +96,12 @@ export default function TwShiatsu() {
                 <li className="flex gap-x-3">
                   <span>
                     <strong className="font-semibold text-gray-900">Première année, 12 jours de septembre 2023 à mai 2024</strong> 
-                    <p>23-14 septembre 2023</p>
+                    <p>23-24 septembre 2023</p>
                     <p>25-26 novembre 2023</p>
                     <p>20-21 janvier 2024</p>
                     <p>16-17 mars 2024</p>
                     <p>23-26 mai 2024</p>
+                    <em>En cas d&lsquo;indisponibilité sur certains séminaires. Il y a la possibilité de rejoindre le groupe qui suit la formation à Paris.</em>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
