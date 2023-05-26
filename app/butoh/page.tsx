@@ -30,7 +30,7 @@ export default function Home() {
                     <p className="pl-2">keihoku.studio@gmail.com</p>
                 </div>
                 <div className="text-sm -space-y-2 pb-2 sm:pb-4">
-                    <p className="text-red-500">Workshop en anglais (basique)</p>
+                    <p className="text-red-500">Workshop en anglais (basic)</p>
                 </div>
             </div>
             <div className="flex flex-col items-center min-w-[300px]">
