@@ -43,7 +43,7 @@ export default function TwCaSeFait() {
                 </Link>
               </div>
               <p className="mt-6 text-xl leading-8 text-gray-700 italic">
-                <span className="font-bolt text-4xl">“</span> Je tente de transmettre l&apos;approfondissement de l&apos;improvisation dansée à travers la contemplation active, la relation au “regard” de l'autre, l&apos;imaginal en mouvement.<span className="font-bolt text-2xl">”</span>
+                <span className="font-bolt text-4xl">“</span> Je tente de transmettre l&apos;approfondissement de l&apos;improvisation dansée à travers la contemplation active, la relation au “regard” de l&apos;autre, l&apos;imaginal en mouvement.<span className="font-bolt text-2xl">”</span>
               </p>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 <Link href='https://www.emiliagiudicelli.org/' className="font-bold hover:text-gray-500 duration-500">www.emiliagiudicelli.org
