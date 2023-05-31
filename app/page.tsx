@@ -2,10 +2,7 @@
 
 
 import NextEventSm from './NextEventSm'
-import Shiatsu from './Shiatsu'
 import Link from 'next/link';
-import manabu from 'public/manabu.webp'
-import Image from 'next/image';
 
 
 
