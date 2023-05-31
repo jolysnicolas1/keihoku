@@ -43,7 +43,7 @@ export default function TwCaSeFait() {
                 </Link>
               </div>
               <p className="mt-6 text-xl leading-8 text-gray-700 italic">
-                <span className="font-bolt text-4xl">“</span> Je tente de transmettre l’approfondissement de l’improvisation dansée à travers la contemplation active, la relation au “regard” de l’autre, l’imaginal en mouvement.<span className="font-bolt text-2xl">”</span>
+                <span className="font-bolt text-4xl">“</span> Je tente de transmettre l'approfondissement de l'improvisation dansée à travers la contemplation active, la relation au “regard” de l'autre, l'imaginal en mouvement.<span className="font-bolt text-2xl">”</span>
               </p>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 <Link href='https://www.emiliagiudicelli.org/' className="font-bold hover:text-gray-500 duration-500">www.emiliagiudicelli.org
@@ -71,9 +71,9 @@ export default function TwCaSeFait() {
                 Accompagnement guitare par Grégoire Paultre
               </p>
               <p className="mt-6">
-                Contempler puis agir, ou la contemplation dans l’agir, ou l’agir au coeur de la contemplation.<br/>
-                Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s’asseoit?<br/>
-                Quelles formes relationnelles m’agissent là, maintenant?</p>
+                Contempler puis agir, ou la contemplation dans l'agir, ou l'agir au coeur de la contemplation.<br/>
+                Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s'asseoit?<br/>
+                Quelles formes relationnelles m'agissent là, maintenant?</p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
