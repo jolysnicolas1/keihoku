@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
                 <div className="text-sm -space-y-2">
                     <p className="text-red-500">tarif</p>
-                    <p className="pl-2">110 euros (si nécessaire, réduit 75e)</p>
+                    <p className="pl-2">110 euros (tarif réduit 75e)</p>
                 </div>
                 <div className="text-sm -space-y-2 pb-2 sm:pb-4">
                     <p className="text-red-500">inscriptions</p>

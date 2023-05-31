@@ -85,7 +85,7 @@ export default function TwShiatsu() {
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">100 euros</strong> (Si nécessaire tarif réduit 80 euros)
+                    <strong className="font-semibold text-gray-900">100 euros</strong> (tarif réduit 80 euros)
                   </span>
                 </li>
                 <li className="flex gap-x-3">

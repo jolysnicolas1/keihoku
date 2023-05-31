@@ -73,7 +73,7 @@ export default function TwCaSeFait() {
               <p className="mt-6">
                 Contempler puis agir, ou la contemplation dans l&apos;agir, ou l&apos;agir au coeur de la contemplation.<br/>
                 Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s&apos;asseoit?<br/>
-                Quelles formes relationnelles m'agissent là, maintenant?</p>
+                Quelles formes relationnelles m&apos;agissent là, maintenant?</p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
@@ -82,7 +82,7 @@ export default function TwCaSeFait() {
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">40 euros</strong><br/> (Si nécessaire tarif réduit 30 euros)
+                    <strong className="font-semibold text-gray-900">40 euros</strong><br/> (tarif réduit 30 euros)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
