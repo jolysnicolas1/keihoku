@@ -35,9 +35,7 @@ export default function TwShiatsu() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg space-y-5">
-              <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
-                Sincrire au stage de Shiatsu & Aunkai
-              </Link>
+
               <p className="text-base font-semibold leading-7 text-indigo-600">Manabu Watanabe & Alain Tauch</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Shiatsu</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
@@ -64,6 +62,11 @@ export default function TwShiatsu() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Stage Shiatsu & Aunkai</h2>
+              <div className="pt-5">
+                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
+                  Sincrire au stage de Shiatsu & Aunkai
+                </Link>
+              </div>
               <p className="font-bold mt-6">
                 Bunka (文化)
               </p>
@@ -74,7 +77,7 @@ export default function TwShiatsu() {
               <p className="mt-6">
               Pour ce stage nous vous proposons d’explorer la culture japonaise (bunka) afin de mieux comprendre les valeurs et principes dont se nourrissent les pratiques martiales et de santé venant du Japon. Ceci vous permettra de prendre conscience du rôle symbolique et éducatif de ces éléments culturels, et de les mettre à profit pour enrichir votre pratique.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul role="list" className="mt-8 space-y-8 text-gray-600 pb-3">
                 <li className="flex gap-x-3">
                   <span>
                     <strong className="font-semibold text-gray-900">Samedi 01 juillet et Dimanche 02 juillet</strong> De 10:00 à 17:30
@@ -91,7 +94,13 @@ export default function TwShiatsu() {
                   </span>
                 </li>
               </ul>
+              <hr className="py-5" />
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Formation Shiatsu</h2>
+              <div className="py-5">
+                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
+                  Se pré-isncrire à la formation Shiatsu 2023/2024
+                </Link>
+              </div>
               <p className="mt-6">
                 Formation de Shiatsu. Cycle de 3 années
               </p>
