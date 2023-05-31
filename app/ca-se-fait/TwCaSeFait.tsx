@@ -39,7 +39,7 @@ export default function TwCaSeFait() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ça se fait</h1>
               <div className="py-8">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-ca-se-fait-3-mhqvjx">
-                can be replaced with &apos; 
+                  S'incrire à l&apos;atelier de danse du 11 juin
                 </Link>
               </div>
               <p className="mt-6 text-xl leading-8 text-gray-700 italic">
@@ -70,10 +70,10 @@ export default function TwCaSeFait() {
                 <span className="font-semibold">Atelier de danse</span><br/>
                 Accompagnement guitare par Grégoire Paultre
               </p>
-              {/* <p className="mt-6">
-                Contempler puis agir, ou la contemplation dans l'agir, ou l'agir au coeur de la contemplation.<br/>
-                Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s'asseoit?<br/>
-                Quelles formes relationnelles m'agissent là, maintenant?</p> */}
+              <p className="mt-6">
+                Contempler puis agir, ou la contemplation dans l&apos;agir, ou l&apos;agir au coeur de la contemplation.<br/>
+                Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s&apos;asseoit?<br/>
+                Quelles formes relationnelles m'agissent là, maintenant?</p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
