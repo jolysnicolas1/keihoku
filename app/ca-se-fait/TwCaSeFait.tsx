@@ -70,10 +70,10 @@ export default function TwCaSeFait() {
                 <span className="font-semibold">Atelier de danse</span><br/>
                 Accompagnement guitare par Grégoire Paultre
               </p>
-              <p className="mt-6">
+              {/* <p className="mt-6">
                 Contempler puis agir, ou la contemplation dans l'agir, ou l'agir au coeur de la contemplation.<br/>
                 Qui est ce “je suis” qui gesticule, qui se meut, qui danse, qui tourbillonne ou qui s'asseoit?<br/>
-                Quelles formes relationnelles m'agissent là, maintenant?</p>
+                Quelles formes relationnelles m'agissent là, maintenant?</p> */}
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
