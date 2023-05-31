@@ -39,7 +39,7 @@ export default function TwCaSeFait() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ça se fait</h1>
               <div className="py-8">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-ca-se-fait-3-mhqvjx">
-                ' can be replaced with &apos;, &lsquo;, &#39; or &rsquo;
+                can be replaced with &apos;, &lsquo;, &#39; or &rsquo;
                 </Link>
               </div>
               <p className="mt-6 text-xl leading-8 text-gray-700 italic">
