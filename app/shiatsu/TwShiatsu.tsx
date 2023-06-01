@@ -97,7 +97,7 @@ export default function TwShiatsu() {
               <hr className="py-5" />
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Formation Shiatsu</h2>
               <div className="py-5">
-                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
+                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/pre-inscriptions-formation-shiatsu-20232024-a99d2n">
                   Se pré-isncrire à la formation Shiatsu 2023/2024
                 </Link>
               </div>
