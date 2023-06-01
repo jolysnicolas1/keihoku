@@ -105,7 +105,7 @@ export default function TwShiatsu() {
                 Formation de Shiatsu. Cycle de 3 années
               </p>
               <div className="flex justify-between">
-                <div className="border-red-100 rounded-lg drop-shadow-sm border-2 py-1 px-3 bg-red-50 my-5">
+                <div className="border-red-100 rounded-lg drop-shadow-sm border-2 py-1 md:px-3 bg-red-50 my-5">
                   <p>1ère année</p>
                   <p>2023-2024</p>
                 </div>
@@ -125,11 +125,29 @@ export default function TwShiatsu() {
                 <li className="flex gap-x-3">
                   <span>
                     <strong className="font-semibold text-gray-900">Première année, 12 jours de septembre 2023 à mai 2024</strong> 
-                    <p>23-24 septembre 2023</p>
-                    <p>25-26 novembre 2023</p>
-                    <p>20-21 janvier 2024</p>
-                    <p>16-17 mars 2024</p>
-                    <p>23-26 mai 2024</p>
+                    <div className="flex w-full py-5 md:pr-8 justify-between">
+                      <div className="flex flex-col">
+                        <p>Séminaire 1</p>
+                        <p>Séminaire 2</p>
+                        <p>Séminaire 3</p>
+                        <p>Séminaire 4</p>
+                        <p>Séminaire 5&6</p>
+                      </div>
+                      <div className="flex flex-col font-semibold">
+                        <p>23-24 septembre 2023</p>
+                        <p>25-26 novembre 2023</p>
+                        <p>20-21 janvier 2024</p>
+                        <p>16-17 mars 2024</p>
+                        <p>23-26 mai 2024</p>
+                      </div>
+                      <div className="flex flex-col">
+                        <p>2j</p>
+                        <p>2j</p>
+                        <p>2j</p>
+                        <p>2j</p>
+                        <p>4j</p>
+                      </div>
+                    </div>
                     <em>En cas d&lsquo;indisponibilité sur certains séminaires. Il y a la possibilité de rejoindre le groupe qui suit la formation à Paris.</em>
                   </span>
                 </li>
@@ -149,15 +167,6 @@ export default function TwShiatsu() {
                 <p className="mt-8">
                   6 séminaires avec 12h de cours par week-end (4 fois 2 jours + dernier séminaire de 4 jours), soit 72 heures de formation. Formations conduites à la Dérive (Pont-Menou 29620), dispensées par Manabu Watanabe en anglais et traduites en francais par Alain Tauch.
                 </p>
-                <h2 className="text-xl font-bold" >Programme détaillé première année</h2>
-                <div className="">
-                  <h3 className="text-gray-500 font-bold" >Séminaire 1 <span>23-24 septembre 2023</span> </h3>
-                  <p className="font-semibold" >Position debout & point zéro, marcher (en utilisant le centre de gravité)</p>
-                  <ul className="">
-                    <li>Que connaissons nous de la structure du corps humain ?</li>
-                    <li>Se tenir debout, assis, marcher … je sais déjà faire ! Et bien en fait, ce n’est pas si simple que ça... C’est pour cela qu’on commence par étudier ce qu’est le mouvement.</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
