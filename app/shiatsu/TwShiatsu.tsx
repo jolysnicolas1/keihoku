@@ -61,7 +61,7 @@ export default function TwShiatsu() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Stage Shiatsu & Aunkai</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Stage Shiatsu & Aunkai  <span className="text-gray-400" >- 01/02 juillet 2023</span> </h2>
               <div className="pt-5">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
                   Sincrire au stage de Shiatsu & Aunkai
@@ -104,7 +104,24 @@ export default function TwShiatsu() {
               <p className="mt-6">
                 Formation de Shiatsu. Cycle de 3 années
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <div className="flex justify-between">
+                <div className="border-red-100 rounded-lg drop-shadow-sm border-2 py-1 px-3 bg-red-50 my-5">
+                  <p>1ère année</p>
+                  <p>2023-2024</p>
+                </div>
+                <div className="border-red-100 rounded-lg drop-shadow-sm border-2 py-1 px-3 bg-red-50 my-5">
+                  <p>2ème année</p>
+                  <p>2024-2025</p>
+                </div>
+                <div className="border-red-100 rounded-lg drop-shadow-sm border-2 py-1 px-3 bg-red-50 my-5">
+                  <p>3ème année</p>
+                  <p>2025-2026</p>
+                </div>
+              </div>
+              <ul role="list" className="bg-gray-50 p-5 mt-8 space-y-8 text-gray-600 drop-shadow-md rounded-lg">
+                <li>
+                  En bref...
+                </li>
                 <li className="flex gap-x-3">
                   <span>
                     <strong className="font-semibold text-gray-900">Première année, 12 jours de septembre 2023 à mai 2024</strong> 
@@ -127,10 +144,21 @@ export default function TwShiatsu() {
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                
-              </p>
-
+              <div className="py-12 space-y-12">
+                <h2 className="text-xl font-bold" >Organisation des cours</h2>
+                <p className="mt-8">
+                  6 séminaires avec 12h de cours par week-end (4 fois 2 jours + dernier séminaire de 4 jours), soit 72 heures de formation. Formations conduites à la Dérive (Pont-Menou 29620), dispensées par Manabu Watanabe en anglais et traduites en francais par Alain Tauch.
+                </p>
+                <h2 className="text-xl font-bold" >Programme détaillé première année</h2>
+                <div className="">
+                  <h3 className="text-gray-500 font-bold" >Séminaire 1 <span>23-24 septembre 2023</span> </h3>
+                  <p className="font-semibold" >Position debout & point zéro, marcher (en utilisant le centre de gravité)</p>
+                  <ul className="">
+                    <li>Que connaissons nous de la structure du corps humain ?</li>
+                    <li>Se tenir debout, assis, marcher … je sais déjà faire ! Et bien en fait, ce n’est pas si simple que ça... C’est pour cela qu’on commence par étudier ce qu’est le mouvement.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
