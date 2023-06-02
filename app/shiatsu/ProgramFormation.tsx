@@ -6,7 +6,7 @@ interface Seminaire {
     number: string;
     date: string;
     title: string;
-    contents: string;
+    contents: string[];
   }
 
 const DisplaySeminaires = ({seminaires}: {seminaires: Seminaire[]}) => {
