@@ -1,6 +1,5 @@
 import Image from "next/image"
 import manabu from 'public/manabu-care.webp'
-import Link from "next/link"
 
 interface Seminaire {
     number: string;

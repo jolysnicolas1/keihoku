@@ -27,19 +27,27 @@ export default function Home() {
             <p className=''><strong className=''>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/02-07/023/02-07/023</strong></p>
           </div>
         </Link>
-        <Link href="/ca-se-fait">
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className='text-red-600'>ÇA.SE.FAIT #3</strong><strong className=''>/ATELIER.DE.DANSE</strong></p>
-            <p className=''><strong className='text-blue-500'>/ÉMILIA.GIUDICELLI</strong><strong className='text-neutral-400'>/11-06/2023</strong></p>
-          </div>
-        </Link>
       </div>
-      <Link href="/butoh">
+      <Link href="/ca-se-fait">
         <NextEventSm/>
       </Link>
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
+        <Link href="/butoh">
           <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>ÇA.SE.FAIT #2</strong><strong className=''>/ATELIER.DE.DANSE</strong></p>
+            <p className=''> <strong className=''>MOLECULAR.DANCE</strong><strong className='text-neutral-400'>/BUTOH.WORKSHOP</strong></p>
+            <p className=''><strong className='text-blue-500'>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/04-06/2023</strong></p>
+          </div>
+          <div className='flex flex-col md:flex-row items-end'>
+            <p className=''> <strong className=''>MOLECULAR.DANCE</strong><strong className=''>/BUTOH.WORKSHOP</strong></p>
+            <p className=''><strong className=''>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/03-06/2023</strong></p>
+          </div>
+          <div className='flex flex-col md:flex-row items-end'>
+            <p className=''> <strong className='text-red-600'>MOLECULAR.DANCE</strong><strong className=''>/BUTOH.WORKSHOP</strong></p>
+            <p className=''><strong className=''>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/02-06/2023</strong></p>
+          </div>
+        </Link>
+          <div className='flex flex-col md:flex-row items-end'>
+            <p className=''> <strong className=''>ÇA.SE.FAIT #2</strong><strong className='text-neutral-500'>/ATELIER.DE.DANSE</strong></p>
             <p className=''><strong className=''>/ÉMILIA.GIUDICELLI</strong><strong className='text-neutral-400'>/07-05/2023</strong></p>
           </div>
           <div className='flex flex-col md:flex-row items-end'>
