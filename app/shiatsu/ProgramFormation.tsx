@@ -3,8 +3,10 @@ import manabu from 'public/manabu-care.webp'
 import Link from "next/link"
 
 interface Seminaire {
+    number: string;
     date: string;
-    contenu: string;
+    title: string;
+    contents: string;
   }
 
 const DisplaySeminaires = ({seminaires}: {seminaires: Seminaire[]}) => {
