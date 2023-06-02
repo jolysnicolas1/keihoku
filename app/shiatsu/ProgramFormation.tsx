@@ -139,7 +139,7 @@ export default function ProgramFormation() {
 
                   <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                     <p>
-                      “Something in Japanese”
+                      “Something here”
                     </p>
                   </blockquote>
                   <figcaption className="mt-6 text-sm leading-6 text-gray-300">
