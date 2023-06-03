@@ -1,76 +1,147 @@
-"use client"
-
-
-import NextEventSm from './NextEventSm'
 import Link from 'next/link';
+import Day from './Day';
+import Image from 'next/image';
+import corea from 'public/corea.webp';
 
+const daysData = [
+  {
+    practice: { tag: "formation shiatsu", color: "" },
+    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    date: ["09/2023-05/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "shiatsu & aunkai", color: "" },
+    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    date: ["01-07/2023", "02-07/2023"],
+    href: "/shiatsu",
+  },
+];
+const pastEvents = [
+  {
+    practice: { tag: "ça se fait #2/atelier de danse", color: "" },
+    teacher: { tag: "Émilia Giudicelli", color: "" },
+    date: ["07-05/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "ça se fait #1/atelier de danse", color: "" },
+    teacher: { tag: "Émilia Giudicelli", color: "" },
+    date: ["26-03/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "technique alexander", color: "" },
+    teacher: { tag: "Antonia Pons Capo", color: "" },
+    date: ["21-02/2023", "20-02/2023", "19-02/2023","18-02/2023"],
+    href: "/shiatsu",
+  },
+];
 
+const nextEvent = {
+  practice: { tag: "ça se fait #3/atelier de danse", color: "text-blue-500" },
+  teacher: { tag: "Émilia Giudicelli", color: "" },
+  date: ["11-06/2023"],
+  href: "/shiatsu",
+};
 
+// Fonction pour générer une couleur aléatoire
+const generateRandomColor = () => {
+  const colors = ["text-red-500", "text-blue-500", "text-green-500", "text-purple-500", "text-orange-500", "text-indigo-500"];
+  const randomIndex = Math.floor(Math.random() * colors.length);
+  return colors[randomIndex];
+};
 
 export default function Home() {
   return (
     <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
-        <Link href="/shiatsu" className='flex relative group -space-y-2 duration-300 w-full justify-end'>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=' text-red-600'>FORMATION.SHIATSU</strong><strong className=''>/ALAIN.TAUCH</strong></p>
-            <p className=''><strong className=''>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/09/2023-05/2024</strong></p>
-          </div>
-        </Link>
-        <Link href="/shiatsu">
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>INITIATION.SHIATSU.&.AUNKAI</strong><strong className=''>/ALAIN.TAUCH</strong></p>
-            <p className=''><strong className='text-blue-500'>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/01-07/023/02-07/023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className='text-neutral-400'>INITIATION.SHIATSU.&.AUNKAI</strong><strong className='text-blue-500'>/ALAIN.TAUCH</strong></p>
-            <p className=''><strong className=''>/MANABU.WATANABE</strong><strong className='text-neutral-400'>/02-07/023/02-07/023</strong></p>
-          </div>
-        </Link>
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-8 md:space-y-0 font-light text-xl lg:px-12 xl:px-24 2xl:px-44">
+        <div>
+          {daysData.map((dayItem, index) => {
+            const practiceColor = generateRandomColor();
+            const teacherColor = generateRandomColor();
+
+            return (
+              <div key={index}>
+                {dayItem.date.map((date, dateIndex) => {
+                  let practiceColorToApply = "";
+                  let teacherColorToApply = "";
+
+                  if (dateIndex === 0) {
+                    practiceColorToApply = practiceColor;
+                  } else if (dateIndex === dayItem.date.length - 1) {
+                    teacherColorToApply = teacherColor;
+                  }
+
+                  return (
+                    <Day
+                      key={dateIndex}
+                      practice={{ ...dayItem.practice, color: practiceColorToApply }}
+                      teacher={{ ...dayItem.teacher, color: teacherColorToApply }}
+                      date={date}
+                      href={dayItem.href}
+                    />
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <Link href="/ca-se-fait">
-        <NextEventSm/>
+      <Link href={nextEvent.href}>
+        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96 my-5">
+          <div className="grow p-5 flex md:justify-center self-center">
+            <div className="font-medium flex flex-col align-center">
+              {nextEvent.date.map((date, index) => (
+                <Day
+                  key={index}
+                  practice={{ ...nextEvent.practice, color: nextEvent.practice.color }}
+                  teacher={{ ...nextEvent.teacher, color: nextEvent.teacher.color }}
+                  date={date}
+                  href={nextEvent.href}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              className="md:border-l-4 md:border-blue-500"
+              src={corea}
+              height={300}
+              width={300}
+              alt="corea"
+            />
+          </div>
+        </div>
       </Link>
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
-        <Link href="/butoh">
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>MOLECULAR.DANCE</strong><strong className='text-neutral-400'>/BUTOH.WORKSHOP</strong></p>
-            <p className=''><strong className='text-blue-500'>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/04-06/2023</strong></p>
+        {pastEvents.map((pastEvent, index) => (
+          <div key={index}>
+            {pastEvent.date.map((date, dateIndex) => {
+              let practiceColorToApply = "";
+              let teacherColorToApply = "";
+
+              if (dateIndex === 0) {
+                practiceColorToApply = generateRandomColor();
+              } else if (dateIndex === pastEvent.date.length - 1) {
+                teacherColorToApply = generateRandomColor();
+              }
+
+              return (
+                <Day
+                  key={dateIndex}
+                  practice={{ ...pastEvent.practice, color: practiceColorToApply }}
+                  teacher={{ ...pastEvent.teacher, color: teacherColorToApply }}
+                  date={date}
+                  href={pastEvent.href}
+                />
+              );
+            })}
           </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>MOLECULAR.DANCE</strong><strong className=''>/BUTOH.WORKSHOP</strong></p>
-            <p className=''><strong className=''>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/03-06/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className='text-red-600'>MOLECULAR.DANCE</strong><strong className=''>/BUTOH.WORKSHOP</strong></p>
-            <p className=''><strong className=''>/MARUSKA.RONCHI</strong><strong className='text-neutral-400'>/02-06/2023</strong></p>
-          </div>
-        </Link>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>ÇA.SE.FAIT #2</strong><strong className='text-neutral-500'>/ATELIER.DE.DANSE</strong></p>
-            <p className=''><strong className=''>/ÉMILIA.GIUDICELLI</strong><strong className='text-neutral-400'>/07-05/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>ÇA.SE.FAIT #1</strong><strong className=''>/ATELIER.DE.DANSE</strong></p>
-            <p className=''><strong className='text-blue-500'>/ÉMILIA.GIUDICELLI</strong><strong className='text-neutral-400'>/26-03/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>TECHNIQUE.ALEXANDER</strong><strong className=''>/DANSE.COMPTEMPORAINE</strong></p>
-            <p className=''><strong className=''>/ANTONIA.PONS.CAPO</strong><strong className='text-neutral-400'>/21-02/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className='text-red-600'>TECHNIQUE.ALEXANDER</strong><strong className=''>/DANSE.COMPTEMPORAINE</strong></p>
-            <p className=''><strong className=''>/ANTONIA.PONS.CAPO</strong><strong className='text-neutral-400'>/20-02/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>TECHNIQUE.ALEXANDER</strong><strong className=''>/DANSE.COMPTEMPORAINE</strong></p>
-            <p className=''><strong className='text-neutral-400'>/ANTONIA.PONS.CAPO</strong><strong className='text-neutral-400'>/19-02/2023</strong></p>
-          </div>
-          <div className='flex flex-col md:flex-row items-end'>
-            <p className=''> <strong className=''>TECHNIQUE.ALEXANDER</strong><strong className=''>/DANSE.COMPTEMPORAINE</strong></p>
-            <p className=''><strong className=''>/ANTONIA.PONS.CAPO</strong><strong className='text-neutral-400'>/18-02/2023</strong></p>
-          </div>
+        ))}
       </div>
     </main>
-  )
+  );
 }
+
+
