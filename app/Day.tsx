@@ -1,6 +1,19 @@
 import Link from "next/link";
 
-export default function Day(props) {
+interface DayProps {
+  href: string;
+  practice: {
+    color: string;
+    tag: string;
+  };
+  teacher: {
+    color: string;
+    tag: string;
+  };
+  date: string;
+}
+
+export default function Day(props: DayProps) {
   return (
     <main className="font-normal uppercase">
       <Link href={props.href || ""} className="flex relative group -space-y-2 duration-300 w-full justify-end">
