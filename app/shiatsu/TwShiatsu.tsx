@@ -134,7 +134,24 @@ export default function TwShiatsu() {
                         <p>Séminaire 5&6</p>
                       </div>
                       <div className="flex flex-col font-semibold">
-                        <p>23-24 septembre 2023</p>
+                        <p className="
+                        text-red-700 
+                        relative 
+                        line-through 
+                        before:absolute 
+                        before:z-50 
+                        before:content-['newDateSoon'] 
+                        before:h-6 before:w-fit 
+                        before:px-2 
+                        before:bg-red-500 
+                        before:-right-20 
+                        before:rounded 
+                        before:opacity-80 
+                        before:flex 
+                        before:justify-center 
+                        before:text-red-950 
+                        before:text-red-950 
+                        before:font-bold">23-24 septembre 2023</p>
                         <p>25-26 novembre 2023</p>
                         <p>20-21 janvier 2024</p>
                         <p>16-17 mars 2024</p>

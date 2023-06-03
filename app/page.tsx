@@ -19,22 +19,28 @@ const daysData = [
 ];
 const pastEvents = [
   {
+    practice: { tag: "butoh workshop", color: "" },
+    teacher: { tag: "Maruska Ronchi", color: "" },
+    date: ["04-06/2023", "03-06/2023", "02-06/2023"],
+    href: "/butoh",
+  },
+  {
     practice: { tag: "ça se fait #2/atelier de danse", color: "" },
     teacher: { tag: "Émilia Giudicelli", color: "" },
     date: ["07-05/2023"],
-    href: "/shiatsu",
+    href: "/ca-se-fait",
   },
   {
     practice: { tag: "ça se fait #1/atelier de danse", color: "" },
     teacher: { tag: "Émilia Giudicelli", color: "" },
-    date: ["26-03/2023"],
-    href: "/shiatsu",
+    date: ["26-03/2023",],
+    href: "/ca-se-fait",
   },
   {
     practice: { tag: "technique alexander", color: "" },
     teacher: { tag: "Antonia Pons Capo", color: "" },
     date: ["21-02/2023", "20-02/2023", "19-02/2023","18-02/2023"],
-    href: "/shiatsu",
+    href: "#",
   },
 ];
 
@@ -42,7 +48,7 @@ const nextEvent = {
   practice: { tag: "ça se fait #3/atelier de danse", color: "text-blue-500" },
   teacher: { tag: "Émilia Giudicelli", color: "" },
   date: ["11-06/2023"],
-  href: "/shiatsu",
+  href: "/ca-se-fait",
 };
 
 // Fonction pour générer une couleur aléatoire
