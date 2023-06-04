@@ -2,10 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Day from './Day';
 import corea from 'public/corea.webp';
-import NextEvent from './NextEvent';
 import Image from 'next/image';
-
-
 
 type NextEventProps = {
   practice: { tag: string; color: string };
