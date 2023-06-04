@@ -32,13 +32,13 @@ const daysData: Event[] = [
   {
     practice: { tag: "formation shiatsu", color: "" },
     teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
-    date: ["09/2023-05/2023"],
+    date: ["09/2023-05/2024"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "shiatsu & aunkai", color: "" },
     teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
-    date: ["01-07/2023", "02-07/2023"],
+    date: ["02-07/2023", "01-07/2023"],
     href: "/shiatsu",
   },
 ];
