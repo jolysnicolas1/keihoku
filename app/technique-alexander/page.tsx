@@ -41,5 +41,12 @@ export default function Home() {
                   <svg viewBox="0 0 2 2" className="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-               
-
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
