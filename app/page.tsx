@@ -1,7 +1,15 @@
+import React from 'react';
 import Link from 'next/link';
 import Day from './Day';
-import Image from 'next/image';
 import corea from 'public/corea.webp';
+import Image from 'next/image';
+
+const nextEvent = {
+  practice: { tag: "ça se fait #3/atelier de danse", color: "" },
+  teacher: { tag: "Émilia Giudicelli", color: "text-blue-500" },
+  date: ["11-06/2023"],
+  href: "/ca-se-fait",
+};
 
 const daysData = [
   {
@@ -17,6 +25,7 @@ const daysData = [
     href: "/shiatsu",
   },
 ];
+
 const pastEvents = [
   {
     practice: { tag: "butoh workshop", color: "" },
@@ -33,23 +42,16 @@ const pastEvents = [
   {
     practice: { tag: "ça se fait #1/atelier de danse", color: "" },
     teacher: { tag: "Émilia Giudicelli", color: "" },
-    date: ["26-03/2023",],
+    date: ["26-03/2023"],
     href: "/ca-se-fait",
   },
   {
     practice: { tag: "technique alexander", color: "" },
     teacher: { tag: "Antonia Pons Capo", color: "" },
-    date: ["21-02/2023", "20-02/2023", "19-02/2023","18-02/2023"],
-    href: "#",
+    date: ["21-02/2023", "20-02/2023", "19-02/2023", "18-02/2023"],
+    href: "/technique-alexander",
   },
 ];
-
-const nextEvent = {
-  practice: { tag: "ça se fait #3/atelier de danse", color: "text-blue-500" },
-  teacher: { tag: "Émilia Giudicelli", color: "" },
-  date: ["11-06/2023"],
-  href: "/ca-se-fait",
-};
 
 // Fonction pour générer une couleur aléatoire
 const generateRandomColor = () => {
@@ -59,51 +61,86 @@ const generateRandomColor = () => {
 };
 
 export default function Home() {
-  return (
-    <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-8 md:space-y-0 font-light text-xl lg:px-12 xl:px-24 2xl:px-44">
-        <div>
-          {daysData.map((dayItem, index) => {
-            const practiceColor = generateRandomColor();
-            const teacherColor = generateRandomColor();
+  const renderEvent = (event) => {
+    return (
+      <div key={event.href}>
+        {event.date.map((date, dateIndex) => {
+          let practiceColorToApply = "";
+          let teacherColorToApply = "";
+
+          if (dateIndex === 0) {
+            practiceColorToApply = generateRandomColor();
+          } else if (dateIndex === event.date.length - 1) {
+            teacherColorToApply = generateRandomColor();
+          }
+
+          return (
+            <Day
+              key={dateIndex}
+              practice={{ ...event.practice, color: practiceColorToApply }}
+              teacher={{ ...event.teacher, color: teacherColorToApply }}
+              date={date}
+              href={event.href}
+            />
+          );
+        })}
+      </div>
+    );
+  };
+
+  const renderDaysData = () => {
+    return daysData.map((dayItem, index) => {
+      const practiceColor = generateRandomColor();
+      const teacherColor = generateRandomColor();
+
+      return (
+        <div key={index}>
+          {dayItem.date.map((date, dateIndex) => {
+            let practiceColorToApply = "";
+            let teacherColorToApply = "";
+
+            if (dateIndex === 0) {
+              practiceColorToApply = practiceColor;
+            } else if (dateIndex === dayItem.date.length - 1) {
+              teacherColorToApply = teacherColor;
+            }
 
             return (
-              <div key={index}>
-                {dayItem.date.map((date, dateIndex) => {
-                  let practiceColorToApply = "";
-                  let teacherColorToApply = "";
-
-                  if (dateIndex === 0) {
-                    practiceColorToApply = practiceColor;
-                  } else if (dateIndex === dayItem.date.length - 1) {
-                    teacherColorToApply = teacherColor;
-                  }
-
-                  return (
-                    <Day
-                      key={dateIndex}
-                      practice={{ ...dayItem.practice, color: practiceColorToApply }}
-                      teacher={{ ...dayItem.teacher, color: teacherColorToApply }}
-                      date={date}
-                      href={dayItem.href}
-                    />
-                  );
-                })}
-              </div>
+              <Day
+                key={dateIndex}
+                practice={{ ...dayItem.practice, color: practiceColorToApply }}
+                teacher={{ ...dayItem.teacher, color: teacherColorToApply }}
+                date={date}
+                href={dayItem.href}
+              />
             );
           })}
         </div>
+      );
+    });
+  };
+
+  const renderPastEvents = () => {
+    return pastEvents.map((pastEvent, index) => {
+      return renderEvent(pastEvent);
+    });
+  };
+
+  return (
+    <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-8 md:space-y-0 font-light text-xl lg:px-12 xl:px-24 2xl:px-44">
+        <div>{renderDaysData()}</div>
       </div>
       <Link href={nextEvent.href}>
         <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96 my-5">
           <div className="grow p-5 flex md:justify-center self-center">
             <div className="font-medium flex flex-col align-center">
-              {nextEvent.date.map((date, index) => (
+              {nextEvent.date.map((dateItem, index) => (
                 <Day
                   key={index}
                   practice={{ ...nextEvent.practice, color: nextEvent.practice.color }}
                   teacher={{ ...nextEvent.teacher, color: nextEvent.teacher.color }}
-                  date={date}
+                  date={dateItem}
                   href={nextEvent.href}
                 />
               ))}
@@ -120,34 +157,13 @@ export default function Home() {
           </div>
         </div>
       </Link>
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light sm:text-xl lg:px-12 xl:px-24 2xl:px-44">
-        {pastEvents.map((pastEvent, index) => (
-          <div key={index}>
-            {pastEvent.date.map((date, dateIndex) => {
-              let practiceColorToApply = "";
-              let teacherColorToApply = "";
-
-              if (dateIndex === 0) {
-                practiceColorToApply = generateRandomColor();
-              } else if (dateIndex === pastEvent.date.length - 1) {
-                teacherColorToApply = generateRandomColor();
-              }
-
-              return (
-                <Day
-                  key={dateIndex}
-                  practice={{ ...pastEvent.practice, color: practiceColorToApply }}
-                  teacher={{ ...pastEvent.teacher, color: teacherColorToApply }}
-                  date={date}
-                  href={pastEvent.href}
-                />
-              );
-            })}
-          </div>
-        ))}
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light lg:px-12 xl:px-24 2xl:px-44 text-xl">
+        {renderPastEvents()}
       </div>
     </main>
   );
 }
+
+
 
 
