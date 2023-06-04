@@ -4,14 +4,31 @@ import Day from './Day';
 import corea from 'public/corea.webp';
 import Image from 'next/image';
 
-const nextEvent = {
+type Practice = {
+  tag: string;
+  color: string;
+};
+
+type Teacher = {
+  tag: string;
+  color: string;
+};
+
+type Event = {
+  practice: Practice;
+  teacher: Teacher;
+  date: string[];
+  href: string;
+};
+
+const nextEvent: Event = {
   practice: { tag: "ça se fait #3/atelier de danse", color: "" },
   teacher: { tag: "Émilia Giudicelli", color: "text-blue-500" },
   date: ["11-06/2023"],
   href: "/ca-se-fait",
 };
 
-const daysData = [
+const daysData: Event[] = [
   {
     practice: { tag: "formation shiatsu", color: "" },
     teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
@@ -26,7 +43,7 @@ const daysData = [
   },
 ];
 
-const pastEvents = [
+const pastEvents: Event[] = [
   {
     practice: { tag: "butoh workshop", color: "" },
     teacher: { tag: "Maruska Ronchi", color: "" },
@@ -61,7 +78,7 @@ const generateRandomColor = () => {
 };
 
 export default function Home() {
-  const renderEvent = (event) => {
+  const renderEvent = (event: Event) => {
     return (
       <div key={event.href}>
         {event.date.map((date, dateIndex) => {
@@ -163,6 +180,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
