@@ -14,7 +14,7 @@ export default function Home() {
               Avec Antonia Pons Capo
             </p>
             <p className="mt-4 text-base text-red-500 border border-red-600 p-2 font-semibold">
-            <span className="p-3" aria-hidden="true">&rarr;</span>Nouvelles dates bientôt
+              <span className="p-3" aria-hidden="true">&rarr;</span>Nouvelles dates bientôt
             </p>
             <Image
               className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
@@ -41,12 +41,5 @@ export default function Home() {
                   <svg viewBox="0 0 2 2" className="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </main>
-  );
-}
+               
+
