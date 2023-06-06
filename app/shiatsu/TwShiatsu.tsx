@@ -98,7 +98,7 @@ export default function TwShiatsu() {
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Formation Shiatsu</h2>
               <div className="py-5">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/pre-inscriptions-formation-shiatsu-20232024-a99d2n">
-                  Se pré-isncrire à la formation Shiatsu 2023/2024
+                  Se pré-inscrire à la formation Shiatsu 2023/2024
                 </Link>
               </div>
               <p className="mt-6">
@@ -137,21 +137,20 @@ export default function TwShiatsu() {
                         <p className="
                         text-red-700 
                         relative 
-                        line-through 
                         before:absolute 
                         before:z-50 
-                        before:content-['newDateSoon'] 
+                        before:content-['New'] 
                         before:h-6 before:w-fit 
                         before:px-2 
                         before:bg-red-500 
-                        before:-right-20 
+                        before:-right-10 
                         before:rounded 
-                        before:opacity-80 
+                        before:opacity-70 
                         before:flex 
                         before:justify-center 
                         before:text-red-950 
                         before:text-red-950 
-                        before:font-bold">23-24 septembre 2023</p>
+                        before:font-bold">30 sept/01 oct 2023</p>
                         <p>25-26 novembre 2023</p>
                         <p>20-21 janvier 2024</p>
                         <p>16-17 mars 2024</p>

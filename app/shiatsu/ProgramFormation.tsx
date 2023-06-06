@@ -34,7 +34,7 @@ const DisplaySeminaires = ({seminaires}: {seminaires: Seminaire[]}) => {
 const seminaires = [
     {
       number: "Séminaire #1",
-      date: "23/24 septembre 2023<= newDateSoon",
+      date: "30 sept/01 oct 2023<= Nouvelle date",
       title: "Position debout & point zéro, marcher (en utilisant le centre de gravité)",
       contents:[
         "Que connaissons nous de la structure du corps humain ?",
