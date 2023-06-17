@@ -1,6 +1,3 @@
-import Image from "next/image"
-import corea from 'public/corea.webp'
-import Link from "next/link"
 import TwCaSeFait from "./TwCaSeFait"
 
 

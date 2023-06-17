@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Day from './Day';
-import corea from 'public/corea.webp';
+import manubu from 'public/manabu.webp';
 import Image from 'next/image';
 
 type Practice = {
@@ -22,28 +22,52 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "ça se fait #3/atelier de danse", color: "" },
-  teacher: { tag: "Émilia Giudicelli", color: "text-blue-500" },
-  date: ["11-06/2023"],
-  href: "/ca-se-fait",
+  practice: { tag: "shiatsu & aunkai", color: "text-red-500" },
+  teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+  date: ["02-07/2023", "01-07/2023"],
+  href: "/shiatsu",
 };
 
 const daysData: Event[] = [
   {
-    practice: { tag: "formation shiatsu", color: "" },
+    practice: { tag: "formation shiatsu/séminaire #5&6", color: "" },
     teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
-    date: ["09/2023-05/2024"],
+    date: ["23/26-05/2024"],
     href: "/shiatsu",
   },
   {
-    practice: { tag: "shiatsu & aunkai", color: "" },
+    practice: { tag: "formation shiatsu/séminaire #4", color: "" },
     teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
-    date: ["02-07/2023", "01-07/2023"],
+    date: ["16/17-03/2024"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "formation shiatsu/séminaire #3", color: "" },
+    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    date: ["20/21-01/2024"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "formation shiatsu/séminaire #2", color: "" },
+    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    date: ["25/26-11/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "formation shiatsu/séminaire#1", color: "" },
+    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    date: ["30-09/01-10/2023"],
     href: "/shiatsu",
   },
 ];
 
 const pastEvents: Event[] = [
+  {
+    practice: { tag: "ça se fait #3/atelier de danse", color: "" },
+    teacher: { tag: "Émilia Giudicelli", color: "text-blue-500" },
+    date: ["11-06/2023"],
+    href: "/ca-se-fait",
+  },
   {
     practice: { tag: "butoh workshop", color: "" },
     teacher: { tag: "Maruska Ronchi", color: "" },
@@ -166,10 +190,10 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <Image
               className="md:border-l-4 md:border-blue-500"
-              src={corea}
+              src={manubu}
               height={300}
               width={300}
-              alt="corea"
+              alt="manubu"
             />
           </div>
         </div>

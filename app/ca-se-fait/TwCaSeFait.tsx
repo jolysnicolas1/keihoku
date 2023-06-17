@@ -37,11 +37,6 @@ export default function TwCaSeFait() {
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">Émilia Giudicelli</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ça se fait</h1>
-              <div className="py-8">
-                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-ca-se-fait-3-mhqvjx">
-                  S&apos;incrire à l&apos;atelier de danse du 11 juin
-                </Link>
-              </div>
               <p className="mt-6 text-xl leading-8 text-gray-700 italic">
                 <span className="font-bolt text-4xl">“</span> Je tente de transmettre l&apos;approfondissement de l&apos;improvisation dansée à travers la contemplation active, la relation au “regard” de l&apos;autre, l&apos;imaginal en mouvement.<span className="font-bolt text-2xl">”</span>
               </p>
