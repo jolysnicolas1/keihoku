@@ -43,7 +43,7 @@ export default function TwShiatsu() {
               </p>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 Plus d&lsquo;information sur leur site 
-                <Link href='https://sushiatsu.fr/' className="font-bold hover:text-gray-500 duration-500"> sushiatsu.fr
+                <Link href='https://sushiatsu.fr/' target="blank" className="font-bold hover:text-gray-500 duration-500"> sushiatsu.fr
                 </Link>
               </p>
             </div>
@@ -135,22 +135,7 @@ export default function TwShiatsu() {
                       </div>
                       <div className="flex flex-col font-semibold">
                         <p className="
-                        text-red-700 
-                        relative 
-                        before:absolute 
-                        before:z-50 
-                        before:content-['New'] 
-                        before:h-6 before:w-fit 
-                        before:px-2 
-                        before:bg-red-500 
-                        before:-right-10 
-                        before:rounded 
-                        before:opacity-70 
-                        before:flex 
-                        before:justify-center 
-                        before:text-red-950 
-                        before:text-red-950 
-                        before:font-bold">30 sept/01 oct 2023</p>
+                        text-red-700 ">30 sept/01 oct 2023</p>
                         <p>25-26 novembre 2023</p>
                         <p>20-21 janvier 2024</p>
                         <p>16-17 mars 2024</p>
