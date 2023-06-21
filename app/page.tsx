@@ -23,7 +23,7 @@ type Event = {
 
 const nextEvent: Event = {
   practice: { tag: "shiatsu & aunkai", color: "text-red-500" },
-  teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+  teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
   date: ["02-07/2023", "01-07/2023"],
   href: "/shiatsu",
 };
@@ -31,31 +31,31 @@ const nextEvent: Event = {
 const daysData: Event[] = [
   {
     practice: { tag: "formation shiatsu/séminaire #5&6", color: "" },
-    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["23/26-05/2024"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #4", color: "" },
-    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["16/17-03/2024"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #3", color: "" },
-    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["20/21-01/2024"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #2", color: "" },
-    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["25/26-11/2023"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire#1", color: "" },
-    teacher: { tag: "Wanabu Watanabe & Alain Tauch", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["30-09/01-10/2023"],
     href: "/shiatsu",
   },
