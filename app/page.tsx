@@ -22,10 +22,10 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "shiatsu & aunkai", color: "text-red-500" },
-  teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-  date: ["02-07/2023", "01-07/2023"],
-  href: "/shiatsu",
+    practice: { tag: "formation shiatsu/séminaire#1", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["30-09/01-10/2023"],
+    href: "/shiatsu",
 };
 
 const daysData: Event[] = [
@@ -42,6 +42,12 @@ const daysData: Event[] = [
     href: "/shiatsu",
   },
   {
+    practice: { tag: "Tech Alexander & Danse Contemporaine", color: "neutral-500" },
+    teacher: { tag: "Antonia Pons Capo", color: "blue-500" },
+    date: ["23-02/2024","22-02/2024","21-02/2024", "20-02/2024"],
+    href: "/technique-alexander",
+  },
+  {
     practice: { tag: "formation shiatsu/séminaire #3", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["20/21-01/2024"],
@@ -53,15 +59,15 @@ const daysData: Event[] = [
     date: ["25/26-11/2023"],
     href: "/shiatsu",
   },
-  {
-    practice: { tag: "formation shiatsu/séminaire#1", color: "" },
-    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["30-09/01-10/2023"],
-    href: "/shiatsu",
-  },
 ];
 
 const pastEvents: Event[] = [
+  {
+    practice: { tag: "shiatsu & aunkai", color: "text-red-500" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["02-07/2023", "01-07/2023"],
+    href: "/shiatsu",
+  },
   {
     practice: { tag: "ça se fait #3/atelier de danse", color: "" },
     teacher: { tag: "Émilia Giudicelli", color: "text-blue-500" },

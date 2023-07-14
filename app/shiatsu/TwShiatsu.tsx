@@ -61,7 +61,7 @@ export default function TwShiatsu() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Stage Shiatsu & Aunkai  <span className="text-gray-400" >- 01/02 juillet 2023</span> </h2>
+              {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Stage Shiatsu & Aunkai  <span className="text-gray-400" >- 01/02 juillet 2023</span> </h2>
               <div className="pt-5">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/inscription-stage-shiatsu-aunkai-juillet-2023-jfgfs0">
                   Sincrire au stage de Shiatsu & Aunkai
@@ -93,12 +93,11 @@ export default function TwShiatsu() {
                     <strong className="font-semibold text-gray-900">à la Dérive</strong> Pont Menou (29620)
                   </span>
                 </li>
-              </ul>
-              <hr className="py-5" />
+              </ul> */}
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Formation Shiatsu</h2>
               <div className="py-5">
                 <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/pre-inscriptions-formation-shiatsu-20232024-a99d2n">
-                  Se pré-inscrire à la formation Shiatsu 2023/2024
+                  <span className="text-indigo-300" >S'inscrire à la formation Shiatsu 2023/2024</span> - liste d'attente
                 </Link>
               </div>
               <p className="mt-6">
