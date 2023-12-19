@@ -22,23 +22,29 @@ type Event = {
 };
 
 const nextEvent: Event = {
-    practice: { tag: "formation shiatsu/séminaire#1", color: "" },
-    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["30-09/01-10/2023"],
+    practice: { tag: "Aunkaï", color: "red-500" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "red-500" },
+    date: ["19-01/2024"],
     href: "/shiatsu",
 };
 
 const daysData: Event[] = [
   {
-    practice: { tag: "formation shiatsu/séminaire #5&6", color: "" },
+    practice: { tag: "formation shiatsu/séminaire #6", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["23/26-05/2024"],
+    date: ["26-05/2024", "25-05/2024"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "formation shiatsu/séminaire #5", color: "" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["24-05/2024", "23-05/2024"],
     href: "/shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #4", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["16/17-03/2024"],
+    date: ["17-03/2024", "16-03/2024"],
     href: "/shiatsu",
   },
   {
@@ -50,20 +56,32 @@ const daysData: Event[] = [
   {
     practice: { tag: "formation shiatsu/séminaire #3", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["20/21-01/2024"],
-    href: "/shiatsu",
-  },
-  {
-    practice: { tag: "formation shiatsu/séminaire #2", color: "" },
-    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
-    date: ["25/26-11/2023"],
+    date: ["21-01/2024", "20-01/2024"],
     href: "/shiatsu",
   },
 ];
 
 const pastEvents: Event[] = [
   {
-    practice: { tag: "shiatsu & aunkai", color: "text-red-500" },
+    practice: { tag: "formation shiatsu/séminaire#2", color: "text-red-500" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["26-11/2023", "25-11/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "Atelier massage des pieds", color: "text-red-500" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["24-11/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "formation shiatsu/séminaire#1", color: "text-red-500" },
+    teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
+    date: ["01-10/2023", "30-09/2023"],
+    href: "/shiatsu",
+  },
+  {
+    practice: { tag: "stage shiatsu & aunkai", color: "text-red-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["02-07/2023", "01-07/2023"],
     href: "/shiatsu",
@@ -175,13 +193,13 @@ export default function Home() {
 
   return (
     <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-8 md:space-y-0 font-light text-xl lg:px-12 xl:px-24 2xl:px-44">
-        <div>{renderDaysData()}</div>
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-2 font-light text-md lg:px-12 xl:px-24 2xl:px-44">
+        {renderDaysData()}
       </div>
       <Link href={nextEvent.href}>
-        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96 my-5">
+        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-md md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96 my-5">
           <div className="grow p-5 flex md:justify-center self-center">
-            <div className="font-medium flex flex-col align-center">
+            <div className="font-medium flex flex-col align-center hover:animate-pulse">
               {nextEvent.date.map((dateItem, index) => (
                 <Day
                   key={index}
@@ -204,7 +222,7 @@ export default function Home() {
           </div>
         </div>
       </Link>
-      <div className="flex flex-col items-end p-1 sm:p-4 space-y-5 md:space-y-0 font-light lg:px-12 xl:px-24 2xl:px-44 text-xl">
+      <div className="flex flex-col items-end p-1 sm:p-4 space-y-2 font-light lg:px-12 xl:px-24 2xl:px-44 text-md">
         {renderPastEvents()}
       </div>
     </main>

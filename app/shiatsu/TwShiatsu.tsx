@@ -95,11 +95,6 @@ export default function TwShiatsu() {
                 </li>
               </ul> */}
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Formation Shiatsu</h2>
-              <div className="py-5">
-                <Link target="blank" className="bg-blue-500 text-white font-bold rounded-md p-3 my-5 hover:bg-blue-400 duration-500" href="https://notionforms.io/forms/pre-inscriptions-formation-shiatsu-20232024-a99d2n">
-                  <span className="text-indigo-300" >Inscription à la formation Shiatsu 2023/2024</span> - liste d attente
-                </Link>
-              </div>
               <p className="mt-6">
                 Formation de Shiatsu. Cycle de 3 années
               </p>
