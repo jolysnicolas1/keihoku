@@ -27,7 +27,8 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white hover:text-blue-500 duration-500 uppercase font-thin">
+            <a key={item.name} href={item.href} 
+              className="text-sm leading-6 uppercase font-light bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-300 hover:from-blue-100 hover:to-blue-500 duration-500">
               {item.name}
             </a>
           ))}
@@ -66,14 +67,6 @@ export default function Example() {
                     {item.name}
                   </a>
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>
