@@ -123,26 +123,27 @@ export default function Example() {
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-500">« Stage Dialogues »</h2>
               <p className="mt-6">
-              Nous développerons une conscience du corps dansant comme un ensemble de dialogues qui
-permettront de développer une présence vivante à soi et à son environnement. Pour cela, nous nous
-appuierons sur les outils de la Technique F.M. Alexander* et ceux de l’Ecole Natura Respira. Ces
-approches globales nous apprennent une économie de l’effort en nous aidant à défaire des tensions
-inutiles, nuisibles à notre coordination naturelle et à transformer nos schémas de mouvement
-habituels non conscients et limitants</p>
-              <p>Chaque training du matin explorera un dialogue particulier entre différentes parties du
-corps en rapport avec des outils spécifiques qui seront des portes d’entrées pour enrichir sa
-partition dansée, la renouveler et gagner en précision. L’appropriation progressive de ces outils,
-constituera un socle sur lequel nous appuyer pour renforcer indirectement des notions clefs,
-(ancrage, notion de poids, verticalité, fluidité, engagement, puissance ...). Nous rechercherons par le
-« dé-faire », sans préoccupation de résultat, un dialogue plus fluide intérieur/extérieur et à
-retrouver un « corps-présence » solide, disponible et sensible.</p>
-              <p>L'après-midi, nous développerons et préciserons les axes de travail amorcés dans le training
-du matin par la mise en jeu des outils dans l’improvisation individuelle ou collective, de manière
-ludique et créative. Nous verrons alors comment ces outils ouvrent la voie à d’autres dialogues avec
-l’espace, les partenaires, la mémoire émotionnelle du corps, en nous rendant plus conscients et
-inventifs, plus justes dans nos propositions. Nous attacherons une importance particulière au travail
-du regard et de l’écoute pour nous engager dans le mouvement, toujours à partir de notre
-disponibilité intérieure et de notre singularité.</p>
+                Nous développerons une conscience du corps dansant comme un ensemble de dialogues qui
+                permettront de développer une présence vivante à soi et à son environnement. Pour cela, nous nous
+                appuierons sur les outils de la Technique F.M. Alexander* et ceux de l&apos;Ecole Natura Respira. Ces
+                approches globales nous apprennent une économie de l&apos;effort en nous aidant à défaire des tensions
+                inutiles, nuisibles à notre coordination naturelle et à transformer nos schémas de mouvement
+                habituels non conscients et limitants</p>
+                              <p>Chaque training du matin explorera un dialogue particulier entre différentes parties du
+                corps en rapport avec des outils spécifiques qui seront des portes d&apos;entrées pour enrichir sa
+                partition dansée, la renouveler et gagner en précision. L&apos;appropriation progressive de ces outils,
+                constituera un socle sur lequel nous appuyer pour renforcer indirectement des notions clefs,
+                (ancrage, notion de poids, verticalité, fluidité, engagement, puissance ...). Nous rechercherons par le
+                « dé-faire », sans préoccupation de résultat, un dialogue plus fluide intérieur/extérieur et à
+                retrouver un « corps-présence » solide, disponible et sensible.</p>
+                              <p>L'après-midi, nous développerons et préciserons les axes de travail amorcés dans le training
+                du matin par la mise en jeu des outils dans l&apos;improvisation individuelle ou collective, de manière
+                ludique et créative. Nous verrons alors comment ces outils ouvrent la voie à d&apos;autres dialogues avec
+                l&apos;espace, les partenaires, la mémoire émotionnelle du corps, en nous rendant plus conscients et
+                inventifs, plus justes dans nos propositions. Nous attacherons une importance particulière au travail
+                du regard et de l&apos;écoute pour nous engager dans le mouvement, toujours à partir de notre
+                disponibilité intérieure et de notre singularité.
+              </p>
             </div>
           </div>
         </div>

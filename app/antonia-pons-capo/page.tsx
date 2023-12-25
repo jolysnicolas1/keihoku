@@ -43,7 +43,7 @@ export default function Example() {
                 </a>
                 <div>
                     <a href="/antonia-pons-capo/stage-2024" className="flex uppercase space-x-5 hover:text-neutral-700 text-base font-semibold leading-7 text-indigo-600 cursor-pointer justify-end">
-                    <span>Stage 02/2024</span>
+<span>Stage 02/2024</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                     </svg>
@@ -86,25 +86,25 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-              Formée à l'Instituto de Teatro de Barcelone en danse classique, puis en
-danse contemporaine au CNDC d'Angers, elle est interprète pour Bernard
-Menaut, Jean-Pascal Gilly, Loïc Touzé/Fabienne Compet et, pendant
-plusieurs années pour Jacques Patarozzi. Après son installation à Toulouse
-en 1999, elle danse avec Michèle Rust et Cathy Vergne/Pierre-Charles
-Durouchoux, Anne Hivert, et pendant 12 ans avec Patricia Ferrara. Elle
-travaille également avec Christine Jouve/Patrick André, et participe aux
-projets de Ulrich Funke. Certifiée depuis 2019 en tant qu’enseignante en
-technique F.M. Alexander, elle partage avec Ulrich Funke une recherche sur
-l'influence des outils de cette technique sur la danse depuis 1998, dans le
-domaine de l'enseignement et de la création.
-Professeur de la Méthode de Natura Respira (éducation posturale et
-respiration).
+              Formée à l&apos;Instituto de Teatro de Barcelone en danse classique, puis en
+                danse contemporaine au CNDC d&apos;Angers, elle est interprète pour Bernard
+                Menaut, Jean-Pascal Gilly, Loïc Touzé/Fabienne Compet et, pendant
+                plusieurs années pour Jacques Patarozzi. Après son installation à Toulouse
+                en 1999, elle danse avec Michèle Rust et Cathy Vergne/Pierre-Charles
+                Durouchoux, Anne Hivert, et pendant 12 ans avec Patricia Ferrara. Elle
+                travaille également avec Christine Jouve/Patrick André, et participe aux
+                projets de Ulrich Funke. Certifiée depuis 2019 en tant qu’enseignante en
+                technique F.M. Alexander, elle partage avec Ulrich Funke une recherche sur
+                l&apos;influence des outils de cette technique sur la danse depuis 1998, dans le
+                domaine de l&apos;enseignement et de la création.
+                Professeur de la Méthode de Natura Respira (éducation posturale et
+                respiration).
               </p>
-              <p className="mt-6">Elle enseigne au Théâtre du Hangar, à l’Espace st Cyprien, à la MJC Pont
-des Demoiselles, au CDC de Toulouse, pour l’Association Dansité et l’espace
+              <p className="mt-6">Elle enseigne au Théâtre du Hangar, à l&apos;Espace st Cyprien, à la MJC Pont
+des Demoiselles, au CDC de Toulouse, pour l&apos;Association Dansité et l&apos;espace
 Pluriels à Pau, au CNFPT en tant que formatrice et transmet pour divers
 publics ; danseurs, comédiens, amateurs, professionnelles, séniors, enfants,
-personnes porteuses d’handicap.</p>
+personnes porteuses d&apos;handicap.</p>
             </div>
           </div>
         </div>
