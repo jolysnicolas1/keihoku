@@ -143,7 +143,7 @@ export default function ProgramFormation() {
                   </blockquote>
                   <figcaption className="mt-6 text-sm leading-6 text-gray-300">
                     <strong className="font-semibold text-white">Manabu Watanabe</strong> Fondateur Shyuyou Shiatsu
-                  </figcaption>
+                  </figcaption> 
                 </figure>
               </div>
             </div>

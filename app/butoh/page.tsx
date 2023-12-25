@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Home() {
     return (
-      <main className="min-h-screen pt-12 flex flex-col space-y-12 sm:ml-12 md:ml-24">
+      <main className="min-h-screen flex flex-col space-y-12 sm:ml-12 md:ml-24">
         <div className="flex flex-col md:flex-row border-blue-500 border-t-4 border-l-4  justify-between sm:p-5 md:p-0 xl:ml-60">
             <div className="flex flex-col align-center text-xl space-y-3 p-4 md:pl-12 md:justify-center md:w-fit md:grow">
                 <div className="font-medium lg:hidden">

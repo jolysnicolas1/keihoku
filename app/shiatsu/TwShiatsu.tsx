@@ -1,10 +1,58 @@
-import Image from "next/image"
-import manabu from 'public/manabu.webp'
-import Link from "next/link"
+import { useState, useEffect } from 'react';
+import Image from "next/image";
+import manabu from 'public/manabu.webp';
+import Link from "next/link";
 
 export default function TwShiatsu() {
+  const [navbarStyle, setNavbarStyle] = useState({
+    backgroundColor: 'rgba(255, 255, 255, 0)', // Fully transparent
+    boxShadow: 'none',
+  });
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    if (position > 50) {
+      setNavbarStyle({
+        backgroundColor: 'rgba(255, 255, 255, 0.4)', // Fully opaque
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+      });
+    } else {
+      setNavbarStyle({
+        backgroundColor: 'rgba(255, 255, 255, 0.3)', // Semi-transparent
+        boxShadow: 'none',
+      });
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible">
+      
+      {/* Responsive Navbar with Dynamic Background */}
+      <nav style={navbarStyle} className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex-shrink-0">
+              {/* Left side of the navbar */}
+            </div>
+            <div className="flex items-center">
+              <div className="ml-auto text-4xl font-thin text-blue-500">
+                Keihoku Studio
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Rest of the page content */}
+      {/* ... your existing code ... */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -167,6 +215,7 @@ export default function TwShiatsu() {
           </div>
         </div>
       </div>
+
     </div>
-  )
+  );
 }

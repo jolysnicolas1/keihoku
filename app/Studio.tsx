@@ -39,25 +39,8 @@ export default function Studio() {
         <h1 className={headingClasses}>KEIHOKU STUDIO</h1>
       </div>
       <div className="flex flex-col sm:flex-row">
-        <p className={textClasses}>Pratiques de CORPS/DANSE/SHIATSU/</p>
+        <p className={textClasses}>Pratiques de CORPS</p>
         <p className={textClasses}>à La Dérive</p>
-      </div>
-      <div
-        className="flex flex-row space-x-5 text-2xl mt-5"
-        style={linkContainerStyle}
-      >
-        <Link href="/shiatsu">
-          <div className={beforeClasses}>Shiatsu</div>
-        </Link>
-        <Link href="/ca-se-fait">
-          <div className={beforeClasses}>Ça se fait</div>
-        </Link>
-        <Link href="/butoh">
-          <div className={beforeClasses}>Butoh</div>
-        </Link>
-        <Link href="/technique-alexander">
-          <div className={beforeClasses}>Technique Alexander</div>
-        </Link>
       </div>
     </div>
   );

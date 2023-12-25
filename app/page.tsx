@@ -1,8 +1,10 @@
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import Day from './Day';
 import manubu from 'public/manabu.webp';
 import Image from 'next/image';
+import Navbar from './Navbar';
 
 type Practice = {
   tag: string;
@@ -25,7 +27,7 @@ const nextEvent: Event = {
     practice: { tag: "Aunkaï", color: "red-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "red-500" },
     date: ["19-01/2024"],
-    href: "/shiatsu",
+    href: "/manabu/aunkai/01-2024",
 };
 
 const daysData: Event[] = [
@@ -33,58 +35,58 @@ const daysData: Event[] = [
     practice: { tag: "formation shiatsu/séminaire #6", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["26-05/2024", "25-05/2024"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #5", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["24-05/2024", "23-05/2024"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #4", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["17-03/2024", "16-03/2024"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
   {
     practice: { tag: "Tech Alexander & Danse Contemporaine", color: "neutral-500" },
     teacher: { tag: "Antonia Pons Capo", color: "blue-500" },
     date: ["23-02/2024","22-02/2024","21-02/2024", "20-02/2024"],
-    href: "/technique-alexander",
+    href: "/antonia-pons-capo/stage-2024",
   },
   {
     practice: { tag: "formation shiatsu/séminaire #3", color: "" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["21-01/2024", "20-01/2024"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
 ];
 
 const pastEvents: Event[] = [
   {
-    practice: { tag: "formation shiatsu/séminaire#2", color: "text-red-500" },
+    practice: { tag: "formation shiatsu/séminaire#2", color: "text-neutral-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["26-11/2023", "25-11/2023"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
   {
-    practice: { tag: "Atelier massage des pieds", color: "text-red-500" },
+    practice: { tag: "Atelier massage des pieds", color: "text-neutral-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["24-11/2023"],
-    href: "/shiatsu",
+    href: "/manabu",
   },
   {
-    practice: { tag: "formation shiatsu/séminaire#1", color: "text-red-500" },
+    practice: { tag: "formation shiatsu/séminaire#1", color: "text-neutral-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["01-10/2023", "30-09/2023"],
-    href: "/shiatsu",
+    href: "/formation-shiatsu",
   },
   {
-    practice: { tag: "stage shiatsu & aunkai", color: "text-red-500" },
+    practice: { tag: "stage shiatsu & aunkai", color: "text-neutral-500" },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["02-07/2023", "01-07/2023"],
-    href: "/shiatsu",
+    href: "/manabu",
   },
   {
     practice: { tag: "ça se fait #3/atelier de danse", color: "" },
@@ -114,7 +116,7 @@ const pastEvents: Event[] = [
     practice: { tag: "technique alexander", color: "" },
     teacher: { tag: "Antonia Pons Capo", color: "" },
     date: ["21-02/2023", "20-02/2023", "19-02/2023", "18-02/2023"],
-    href: "/technique-alexander",
+    href: "/antonia-pons-capo",
   },
 ];
 
@@ -192,7 +194,8 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen pt-12 flex flex-col text-cyan-400">
+    <main className="min-h-screen flex flex-col text-cyan-400 space-y-5">
+      <Navbar></Navbar>
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-2 font-light text-md lg:px-12 xl:px-24 2xl:px-44">
         {renderDaysData()}
       </div>
