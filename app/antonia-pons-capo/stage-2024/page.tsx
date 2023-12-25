@@ -136,7 +136,7 @@ export default function Example() {
                 (ancrage, notion de poids, verticalité, fluidité, engagement, puissance ...). Nous rechercherons par le
                 « dé-faire », sans préoccupation de résultat, un dialogue plus fluide intérieur/extérieur et à
                 retrouver un « corps-présence » solide, disponible et sensible.</p>
-                              <p>L'après-midi, nous développerons et préciserons les axes de travail amorcés dans le training
+                              <p>L&apos;après-midi, nous développerons et préciserons les axes de travail amorcés dans le training
                 du matin par la mise en jeu des outils dans l&apos;improvisation individuelle ou collective, de manière
                 ludique et créative. Nous verrons alors comment ces outils ouvrent la voie à d&apos;autres dialogues avec
                 l&apos;espace, les partenaires, la mémoire émotionnelle du corps, en nous rendant plus conscients et

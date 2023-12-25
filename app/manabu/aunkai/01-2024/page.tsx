@@ -67,7 +67,7 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Ce stage s'adresse à toute personne ayant une pratiques de mouvement ou de soin préalable.
+                Ce stage s&apos;adresse à toute personne ayant une pratiques de mouvement ou de soin préalable.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
