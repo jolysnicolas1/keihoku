@@ -44,7 +44,7 @@ export default function Example() {
               </a>
               <p className="mt-4 text-base text-red-500 border border-red-600 p-2 font-semibold w-fit px-8 mb-5">
               <span className="p-3" aria-hidden="true">&rarr;</span>
-              Inscription ouvertes
+              Stage complet
             </p>
               <p className="text-base font-semibold leading-7 text-neutral-700">Prochain Stage du 20 au 23 février 2024</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Danse contemporaine & technique F.M. Alexander</h1>

@@ -1,4 +1,3 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import manabu from "/public/manabu.webp";
 import Image from 'next/image';
 
@@ -46,10 +45,13 @@ export default function Example() {
               <span className="p-3" aria-hidden="true">&rarr;</span>
               Inscription ouvertes
             </p>
-              <p className="text-base font-semibold leading-7 text-neutral-700">Prochaine pratique vendredi 19 janvier 2024</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Aunkaï</h1>
+              <p className="text-base font-semibold leading-7 text-neutral-700">Prochaine atelier vendredi 19 janvier 2024</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Atelier Aunkaï</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                blabla
+                
+                L&apos;Aunkaï est un art martial qui a été développé par Akuzawa Minoru. Il se concentre sur le développement de compétences internes, telles que la structure corporelle, le mouvement et l&apos;équilibre. Contrairement à de nombreux arts martiaux traditionnels, l&apos;Aunkaï n&apos;est pas axé sur l&apos;apprentissage de techniques spécifiques pour des situations de combat prédéfinies. Au lieu de cela, il met l&apos;accent sur l&apos;entraînement du corps et de l&apos;esprit pour réagir de manière naturelle et efficace dans diverses situations.
+
+
               </p>
             </div>
           </div>
@@ -67,7 +69,7 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Ce stage s&apos;adresse à toute personne ayant une pratiques de mouvement ou de soin préalable.
+                Atelier ouvert aux débutants comme aux personnes confirmées.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -82,7 +84,7 @@ export default function Example() {
                 </svg>
                 <div>
                   <div>
-                    Vendredi 19 janvier <strong className="font-semibold text-neutral-700">de 18:00 à 21:00</strong>
+                    Vendredi 19 janvier <strong className="font-semibold text-neutral-700">de 18:30 à 20:30</strong>
                   </div>
                 </div>
                 </li>
@@ -91,7 +93,7 @@ export default function Example() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                   <span>
-                    <strong className="font-semibold text-neutral-700">Atelier de 3 heures - 25 euros</strong> (tarif réduit 20 euros)
+                    <strong className="font-semibold text-neutral-700">Atelier de 2 heures - 20 euros</strong> (tarif réduit 15 euros)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -99,7 +101,7 @@ export default function Example() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
                 </svg>
                   <span>
-                    <strong className="font-semibold text-neutral-700">Limitée à 25 participants</strong>
+                    <strong className="font-semibold text-neutral-700">Limitée à 28 participants</strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -113,8 +115,8 @@ export default function Example() {
                   </span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-500">« blabla »</h2>
-              <p className="mt-6">blabla</p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-500">«  »</h2>
+              <p className="mt-6"></p>
             </div>
           </div>
         </div>

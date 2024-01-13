@@ -1,4 +1,3 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import manabu from "/public/manabu-care.webp";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -87,14 +86,20 @@ export default function Example() {
               src={manabu}
               height={300}
               width={300}
-              alt="Antonia"
+              alt="Manabu Watanabe"
             />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+              <p className="mt-6 text-xl leading-8 text-neutral-400 font-bold uppercase">
+                Manabu Watanabe
+              </p>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                blabla
+                Quand je vivais en tant que salarié, je me suis intéressé à la santé du corps à cause du stress physique et du stress de la société moderne. Je voulais en savoir plus sur mon corps et améliorer mon inconfort. C&apos;est mon point de départ pour explorer le corps et soigner les gens.
+              </p>
+              <p className="mt-6 text-xl leading-8 text-gray-700">
+                J’ai exploré le thème « connaître le corps humain » en expérimentant diverses pratiques corporelles telles que la Technique Alexander, le Rolfing, les arts martiaux (Aunkai, 阿 吽 会), les soins infirmiers et le shiatsu. Le shiatsu bénéficie de la connaissance de nos ancêtres permettant de libérer le corps du stress quotidien. C’est aussi le moyen de connecter les gens avec les doigts et les paumes et de redonner à la communauté et à la société. Mon voyage continuera encore longtemps.
               </p>
             </div>
           </div>

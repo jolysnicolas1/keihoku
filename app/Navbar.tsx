@@ -4,6 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Shiatsu', href: '/manabu' },
+  { name: 'Aunkaï', href: '/manabu' },
   { name: 'Danse & technique Alexander', href: '/antonia-pons-capo' },
   { name: 'Butoh', href: '/butoh' },
   { name: 'Ça se fait', href: '/ca-se-fait' },
