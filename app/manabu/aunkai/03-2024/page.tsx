@@ -45,13 +45,10 @@ export default function Example() {
               <span className="p-3" aria-hidden="true">&rarr;</span>
               Inscription ouvertes
             </p>
-              <p className="text-base font-semibold leading-7 text-neutral-700">Prochain atelier vendredi 19 janvier 2024</p>
+              <p className="text-base font-semibold leading-7 text-neutral-700">Prochain atelier vendredi 15 mars 2024</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Atelier Aunkaï</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                
                 L&apos;Aunkaï est un art martial qui a été développé par Akuzawa Minoru. Il se concentre sur le développement de compétences internes, telles que la structure corporelle, le mouvement et l&apos;équilibre. Contrairement à de nombreux arts martiaux traditionnels, l&apos;Aunkaï n&apos;est pas axé sur l&apos;apprentissage de techniques spécifiques pour des situations de combat prédéfinies. Au lieu de cela, il met l&apos;accent sur l&apos;entraînement du corps et de l&apos;esprit pour réagir de manière naturelle et efficace dans diverses situations.
-
-
               </p>
             </div>
           </div>
@@ -69,7 +66,7 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Atelier ouvert aux débutants comme aux personnes confirmées.
+                Atelier ouvert aux personnes ayant une pratique du soin ou du mouvement
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -84,7 +81,7 @@ export default function Example() {
                 </svg>
                 <div>
                   <div>
-                    Vendredi 19 janvier <strong className="font-semibold text-neutral-700">de 18:30 à 20:30</strong>
+                    Vendredi 15 mars <strong className="font-semibold text-neutral-700">de 19:00 à 21:00</strong>
                   </div>
                 </div>
                 </li>

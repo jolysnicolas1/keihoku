@@ -1,6 +1,6 @@
 const navigation = {
   solutions: [
-    { name: 'Aunkaï', date: '19 janvier 2024', href: '/manabu/aunkai/01-2024' },
+    { name: 'Aunkaï', date: '15 mars 2024', href: '/manabu/aunkai/03-2024' },
     { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2024', href: '/antonia-pons-capo/stage-2024' },
   ],
   teachers: [
@@ -10,7 +10,7 @@ const navigation = {
     { name: 'Émilia Giudicelli', href: '/ca-se-fait' },
   ],
   company: [
-    { name: 'La Dérive', href: '#' },
+    { name: 'La Dérive', href: 'https://pontmenou.jimdofree.com/' },
   ],
 }
 
@@ -36,10 +36,10 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-white">Agenda</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 group">
+                    <li key={item.name} className="text-gray-300">
+                      <a href={item.href} className="text-sm leading-6">
                         <p className="font-bold">{item.date}</p>
-                        <p className="group-hover:text-white duration-300">{item.name}</p>
+                        <p className="hover:text-white duration-500">{item.name}</p>
                       </a>
                     </li>
                   ))}
@@ -50,7 +50,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.teachers.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white duration-500">
                         {item.name}
                       </a>
                     </li>
@@ -64,7 +64,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <a href={item.href} target="blank" className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
                       </a>
                     </li>
