@@ -44,6 +44,7 @@ export default function Example() {
             </div>
               <p className="text-lg font-semibold leading-7 text-neutral-700">Miche RAJI</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Souffle du chorésophe</h1>
+              <p className="text-lg font-semibold leading-7 text-neutral-700">Description à venir</p>
             </div>
           </div>
         </div>
