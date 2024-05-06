@@ -3,11 +3,6 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Shiatsu', href: '/manabu' },
-  { name: 'Aunkaï', href: '/manabu' },
-  { name: 'Danse & technique Alexander', href: '/antonia-pons-capo' },
-  { name: 'Butoh', href: '/butoh' },
-  { name: 'Ça se fait', href: '/ca-se-fait' },
 ]
 
 export default function Example() {
@@ -26,13 +21,10 @@ export default function Example() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
-            <a key={item.name} href={item.href} 
-              className="text-sm leading-6 uppercase font-light bg-clip-text text-transparent bg-gradient-to-br from-white to-blue-300 hover:from-blue-100 hover:to-blue-500 duration-500">
-              {item.name}
-            </a>
-          ))}
+        <div className="group hidden lg:flex lg:flex-1 lg:justify-end">
+          <p className="text-md font-thin uppercase leading-6 bg-clip-text text-transparent bg-gradient-to-br from-blue-300 to-blue-700 group-hover:text-blue-500 duration-1000">
+            Pratiques du mouvement à la Dérive
+          </p>
         </div>
         <div className="group hidden lg:flex lg:flex-1 lg:justify-end">
           <p className="text-4xl font-thin uppercase leading-6 bg-clip-text text-transparent bg-gradient-to-br from-blue-300 to-blue-700 group-hover:text-blue-500 duration-1000">

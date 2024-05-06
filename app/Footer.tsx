@@ -1,13 +1,8 @@
 const navigation = {
   solutions: [
-    { name: 'Aunkaï', date: '15 mars 2024', href: '/manabu/aunkai/03-2024' },
-    { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2024', href: '/antonia-pons-capo/stage-2024' },
-  ],
-  teachers: [
-    { name: 'Manabu Watanabe & Alain Tauch', href: '/manabu' },
-    { name: 'Antonia Pons Capo', href: '/antonia-pons-capo' },
-    { name: 'Maruska Ronchi', href: '/butoh' },
-    { name: 'Émilia Giudicelli', href: '/ca-se-fait' },
+    { name: 'Le souffle du chorésophe', date: '06/07 juillet 2024', href: '/souffle' },
+    { name: 'Aunkaï', date: '04 octobre 2024', href: '/manabu' },
+    { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2025', href: '/antonia-pons-capo/stage-2024' },
   ],
   company: [
     { name: 'La Dérive', href: 'https://pontmenou.jimdofree.com/' },
@@ -40,18 +35,6 @@ export default function Footer() {
                       <a href={item.href} className="text-sm leading-6">
                         <p className="font-bold">{item.date}</p>
                         <p className="hover:text-white duration-500">{item.name}</p>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Les intervenants</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.teachers.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white duration-500">
-                        {item.name}
                       </a>
                     </li>
                   ))}
