@@ -61,7 +61,7 @@ const daysData: Event[] = [
     practice: { tag: "Incorporé l'invisible, fantômes et fictions métaboliques ", color: "" },
     teacher: { tag: " Stéphane Léchit ", color: "" },
     date: ["27-09", "26-09", "25-09", "24-09", "23-09"],
-    href: "/formation-shiatsu",
+    href: "/",
 
   },
   {
