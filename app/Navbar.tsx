@@ -18,7 +18,7 @@ export default function Example() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="group hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="group hidden lg:flex lg:flex-1">
           <p className="text-md font-thin uppercase leading-6 bg-clip-text text-transparent bg-gradient-to-br from-blue-300 to-blue-700 group-hover:text-blue-500 duration-1000">
             Pratiques du mouvement à la Dérive
           </p>

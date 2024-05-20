@@ -42,6 +42,7 @@ export default function Example() {
                     <span>Agenda</span>
                 </a>
             </div>
+              <p className="text-lg border border-red-500 text-red-500 text-center text-neutral-700 p-3 my-3">Infos à venir pour le stage de septembre</p>
               <p className="text-lg font-semibold leading-7 text-neutral-700">Cléo Tabakian</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Skinner realesing technique</h1>
             </div>

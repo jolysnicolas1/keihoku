@@ -1,6 +1,6 @@
 const navigation = {
   solutions: [
-    { name: 'Le souffle du chorésophe', date: '06/07 juillet 2024', href: '/souffle' },
+    { name: 'Souffle', date: '06/07 juillet 2024', href: '/souffle' },
     { name: 'Aunkaï', date: '04 octobre 2024', href: '/manabu' },
     { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2025', href: '/antonia-pons-capo/stage-2024' },
   ],

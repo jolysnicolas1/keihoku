@@ -9,6 +9,7 @@ import antonia from 'public/antonia.jpeg';
 import anton from 'public/anton.png';
 import corea from 'public/corea.webp';
 import cleo from 'public/cleo.png';
+import raji from 'public/raji1.png';
 
 import Image from 'next/image';
 import Navbar from './Navbar';
@@ -31,7 +32,7 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "Souffle du chorésophe ", color: "" },
+  practice: { tag: "Souffle ", color: "red-500" },
   teacher: { tag: " Michel RAJI", color: "" },
   date: ["07-07", "06-07"],
   href: "/souffle",
@@ -51,8 +52,8 @@ const daysData: Event[] = [
     href: "/manabu",
   },
   {
-    practice: { tag: "Proposition en cours d'élaboration ", color: "" },
-    teacher: { tag: " NC ", color: "" },
+    practice: { tag: "Somatique, Chorégraphique ", color: "" },
+    teacher: { tag: " Susy Chetteau & ... ", color: "" },
     date: ["29-09", "28-09"],
     href: "/",
 
@@ -67,7 +68,7 @@ const daysData: Event[] = [
   {
     practice: { tag: "Skinner realesing technique ", color: "" },
     teacher: { tag: " Cléo Tabakian", color: "" },
-    date: ["00-09"],
+    date: ["xx-09"],
     href: "/skinner-realesing-technique",
   },
 ];
@@ -251,7 +252,12 @@ export default function Home() {
         {renderDaysData()}
       </div>
       <Link href={nextEvent.href}>
-        <div className="border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96">
+
+
+
+
+        <div className="relative border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96">
+          <div className="absolute h-fit bg-blue-500 text-white px-3 py-0 uppercase text-xs font-bold">Inscripitons ouvertes</div>
           <div className="grow p-5 flex md:justify-center self-center">
             <div className="font-medium flex flex-col align-center">
               {nextEvent.date.map((dateItem, index) => (
@@ -268,13 +274,18 @@ export default function Home() {
           <div className="flex flex-col items-center">
           <Image
             className="md:border-l-4 md:border-blue-500 "
-            src={cleo}
+            src={raji}
             height={300}
             width={300}
             alt="corea"
           />
           </div>
         </div>
+
+
+
+
+
       </Link>
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-2 font-light lg:px-12 xl:px-24 2xl:px-44 text-xl">
         {renderPastEvents()}
