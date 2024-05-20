@@ -48,7 +48,7 @@ export default function Example() {
             <div className="bg-sky-50 p-5 rounded border drop-shadow my-5">
             <h2 className="text-2xl font-bold tracking-tight text-red-500">Solo Chorésophique</h2>
               <p className="">
-                À l'issue de la journée de stage, Michel RAJI nous proposera un solo 
+                À l&apos;issue de la journée de stage, Michel RAJI nous proposera un solo 
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -85,7 +85,7 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Le stage s'adresse à toute personne désireuse de découvrir ou d'approfondir la pratique du souffle en mouvement.
+                Le stage s&apos;adresse à toute personne désireuse de découvrir ou d&apos;approfondir la pratique du souffle en mouvement.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
