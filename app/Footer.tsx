@@ -1,6 +1,6 @@
 const navigation = {
   solutions: [
-    { name: 'Souffle', date: '06/07 juillet 2024', href: '/souffle' },
+    { name: 'Skinner Realesing Technique & Composition Instantanée', date: '28/29 septembre 2024', href: '/skinner-realesing-technique' },
     { name: 'Aunkaï', date: '04 octobre 2024', href: '/manabu' },
     { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2025', href: '/antonia-pons-capo/stage-2024' },
   ],
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-400">&copy; 2024 Keihoku Studio, Inc. All rights reserved.</p>
+          <p className="text-xs leading-5 text-gray-400">2024 Keihoku Studio</p>
         </div>
       </div>
     </footer>

@@ -1,7 +1,6 @@
-import cleo from "/public/cleo.png";
-import srt3 from "/public/srt3.jpg";
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import anton from "/public/anton.png";
 import Image from 'next/image';
-import Link from "next/link";
 
 export default function Example() {
   return (
@@ -37,36 +36,40 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
 
-              <a href="/#" className="flex uppercase space-x-5 hover:text-neutral-700 text-base font-semibold leading-7 text-indigo-600 cursor-pointer">
+              <a href="/antonia-pons-capo" className="flex uppercase space-x-5 hover:text-neutral-700 text-base font-semibold leading-7 text-indigo-600 cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                 </svg>
-                <span>AGENDA</span>
+                <span>Antonia Pons Capo</span>
               </a>
               <p className="mt-4 text-base text-red-500 border border-red-600 p-2 font-semibold w-fit px-8 mb-5">
-                <span className="p-3" aria-hidden="true">&rarr;</span>
-                Inscriptions ouvertes
+              <span className="p-3" aria-hidden="true">&rarr;</span>
+              Inscriptions ouvertes à partir du 01 décembre 2024
+            </p>
+              <p className="text-base font-semibold leading-7 text-neutral-700">Prochain Stage du 20 au 23 février 2025</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Danse contemporaine & technique F.M. Alexander</h1>
+              <p className="mt-6 text-xl leading-8 text-gray-700">
+                  Antonia Pons nous vient pour la quatrième année de Toulouse pour nous proposer une traversée de sa méthode alliant danse, technique Alexander et Natura Respira. 
+
               </p>
-              <p className="text-base font-semibold leading-7 text-neutral-700">Prochain Stage les  28 & 29 septembre 2024</p>
-              <h1 className="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-3xl">Skinner Realesing Technique & composition instantanée</h1>
-              <h2 className="text-gray-500 font-bold text-3xl my-3 tracking-wider">avec Cléo Tabakian & Susy Chetteau</h2>
             </div>
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <Image
               className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src={srt3}
+              src={anton}
               height={300}
               width={300}
-              alt="cleo"
+              alt="Antonia"
             />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Le stage s&apos;adresse à toute personne désireuse d&apos;approfondir la pratique du mouvement.
+                Ce stage s’adresse à toute personne désireuse d’améliorer « l’usage de soi »* à travers
+                l’expression dansée.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -81,10 +84,16 @@ export default function Example() {
                 </svg>
                 <div>
                   <div>
-                    Samedi 06 juillet <strong className="font-semibold text-neutral-700">de 11:30 à 18:00</strong>
+                    Jeudi 20 février <strong className="font-semibold text-neutral-700">de 10:00 à 17:30</strong>
                   </div>
                   <div>
-                    Dimanche 07 juillet <strong className="font-semibold text-neutral-700">de 10:00 à 17:30</strong>
+                    Vendredi 21 février <strong className="font-semibold text-neutral-700">de 10:00 à 17:30</strong>
+                  </div>
+                  <div>
+                    Samedi 22 février <strong className="font-semibold text-neutral-700">de 10:00 à 17:30</strong>
+                  </div>
+                  <div>
+                    Dimanche 23 février <strong className="font-semibold text-neutral-700">de 10:00 à 17:30</strong>
                   </div>
                 </div>
                 </li>
@@ -93,7 +102,7 @@ export default function Example() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                   <span>
-                    <strong className="font-semibold text-neutral-700">Stage de 2 jours - 60 euros</strong> (tarif réduit 50 euros)
+                    <strong className="font-semibold text-neutral-700">Stage de 4 jours - 155 euros</strong> (tarif réduit 135 euros)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -101,7 +110,7 @@ export default function Example() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
                 </svg>
                   <span>
-                    <strong className="font-semibold text-neutral-700">Limitée à 24 participants</strong>
+                    <strong className="font-semibold text-neutral-700">Limitée à 24 personnes</strong>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -115,22 +124,10 @@ export default function Example() {
                   </span>
                 </li>
               </ul>
-              <p className="mt-16 text-xl font-bold tracking-tight text-gray-400">matins</p>
-              <h2 className="text-2xl font-bold tracking-tight text-red-500">Cléo Tabakian - Skinner Realesing Technique</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-500">à venir...</h2>
               <p className="mt-6">
-                La Skinner Releasing est une méthode de danse improvisée, plaçant l&apos;imagination dynamique au cœur de l&apos;apprentissage. Des images poétiques viennent éveiller, susciter, altérer, le mouvement spontané.
+                
               </p>
-
-              <Link className="text-blue-500 font-semibold hover:text-blue-700 duration-200" href="https://cleotabakian.blogspot.com/" target="blank">Cléo&apos;s website
-              </Link>
-              <p className="mt-16 text-xl font-bold tracking-tight text-gray-400">après-midi</p>
-              <h2 className="text-2xl font-bold tracking-tight text-red-500">Susy Chetteau - Composition instantanée</h2>
-              <p className="mt-6">
-                Introduction à la composition instantanée.
-                Une pratique de l&apos;improvisation dansée en relation à soi et aux autres. Temps, espace, regard.
-              </p>
-              <Link className="text-blue-500 font-semibold hover:text-blue-700 duration-200" href="/" target="blank">Susy&apos;s website
-              </Link>
             </div>
           </div>
         </div>

@@ -43,7 +43,7 @@ export default function Example() {
               </a>
               <p className="mt-4 text-base text-red-500 border border-red-600 p-2 font-semibold w-fit px-8 mb-5">
               <span className="p-3" aria-hidden="true">&rarr;</span>
-              Inscriptions ouvertes
+              COMPLET
             </p>
             <div className="bg-sky-50 p-5 rounded border drop-shadow my-5">
             <h2 className="text-2xl font-bold tracking-tight text-red-500">Solo Chorésophique</h2>

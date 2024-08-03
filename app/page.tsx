@@ -2,14 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Day from './Day';
-import manubu from 'public/manabu.webp';
-import care from 'public/manabu-care.webp';
-import maru from 'public/maru.webp';
-import antonia from 'public/antonia.jpeg';
-import anton from 'public/anton.png';
-import corea from 'public/corea.webp';
-import cleo from 'public/cleo.png';
-import raji from 'public/raji1.png';
+import srt1 from 'public/srt1.jpg';
 
 import Image from 'next/image';
 import Navbar from './Navbar';
@@ -32,10 +25,10 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "Souffle ", color: "red-500" },
-  teacher: { tag: " Michel RAJI", color: "" },
-  date: ["07-07", "06-07"],
-  href: "/souffle",
+  practice: { tag: "Skinner realesing & composition instantanée ", color: "red-500" },
+  teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
+  date: ["29.09", "28.09"],
+  href: "/skinner-realesing-technique",
 };
 
 const daysData: Event[] = [
@@ -52,10 +45,10 @@ const daysData: Event[] = [
     href: "/manabu",
   },
   {
-    practice: { tag: "Somatique, Chorégraphique ", color: "" },
-    teacher: { tag: " Susy Chetteau & ... ", color: "" },
+    practice: { tag: "Skinner Realesing Technique & composition instantanée", color: "" },
+    teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
     date: ["29-09", "28-09"],
-    href: "/",
+    href: "/skinner-realesing-technique",
 
   },
   {
@@ -65,15 +58,15 @@ const daysData: Event[] = [
     href: "https://presomptionsdepresences.com/INFO-STE_24-7",
 
   },
-  {
-    practice: { tag: "Skinner realesing technique ", color: "" },
-    teacher: { tag: " Cléo Tabakian", color: "" },
-    date: ["xx-09"],
-    href: "/skinner-realesing-technique",
-  },
 ];
 
 const pastEvents: Event[] = [
+  {
+    practice: { tag: "Souffle ", color: "" },
+    teacher: { tag: " Michel RAJI ", color: "" },
+    date: ["07-07", "06-07"],
+    href: "/souffle",
+  },
   {
     practice: { tag: "formation shiatsu/séminaire #6 ", color: "" },
     teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
@@ -252,10 +245,6 @@ export default function Home() {
         {renderDaysData()}
       </div>
       <Link href={nextEvent.href}>
-
-
-
-
         <div className="relative border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96">
           <div className="absolute h-fit bg-blue-500 text-white px-3 py-0 uppercase text-xs font-bold">Inscripitons ouvertes</div>
           <div className="grow p-5 flex md:justify-center self-center">
@@ -274,10 +263,10 @@ export default function Home() {
           <div className="flex flex-col items-center">
           <Image
             className="md:border-l-4 md:border-blue-500 "
-            src={raji}
+            src={srt1}
             height={300}
             width={300}
-            alt="corea"
+            alt="skinner realesing technique"
           />
           </div>
         </div>
