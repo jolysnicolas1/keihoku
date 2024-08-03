@@ -127,7 +127,7 @@ export default function Example() {
               <h2 className="text-2xl font-bold tracking-tight text-red-500">Susy Chetteau - Composition instantanée</h2>
               <p className="mt-6">
                 Introduction à la composition instantanée.
-                Une pratique de l&apos;improvisation dansée en relation à soi et aux autres. Temps, espace, regard.
+                Exploration de l&apos;improvisation dansée en relation à soi et aux autres. Temps, espace, regard.
               </p>
               <Link className="text-blue-500 font-semibold hover:text-blue-700 duration-200" href="/" target="blank">Susy&apos;s website
               </Link>
