@@ -1,6 +1,6 @@
 const navigation = {
   solutions: [
-    { name: 'Skinner Realesing Technique & Composition Instantanée', date: '28/29 septembre 2024', href: '/skinner-realesing-technique' },
+    { name: 'Skinner Releasing Technique & Composition Instantanée', date: '28/29 septembre 2024', href: '/skinner-releasing-technique' },
     { name: 'Aunkaï', date: '04 octobre 2024', href: '/manabu' },
     { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2025', href: '/antonia-pons-capo/stage-2024' },
   ],

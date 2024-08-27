@@ -25,10 +25,10 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "Skinner realesing & composition instantanée ", color: "red-500" },
+  practice: { tag: "Skinner releasing & composition instantanée ", color: "red-500" },
   teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
   date: ["29.09", "28.09"],
-  href: "/skinner-realesing-technique",
+  href: "/skinner-releasing-technique",
 };
 
 const daysData: Event[] = [
@@ -45,10 +45,10 @@ const daysData: Event[] = [
     href: "/manabu",
   },
   {
-    practice: { tag: "Skinner Realesing Technique & composition instantanée", color: "" },
+    practice: { tag: "Skinner Releasing Technique & composition instantanée", color: "" },
     teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
     date: ["29-09", "28-09"],
-    href: "/skinner-realesing-technique",
+    href: "/skinner-releasing-technique",
 
   },
   {
@@ -266,7 +266,7 @@ export default function Home() {
             src={srt1}
             height={300}
             width={300}
-            alt="skinner realesing technique"
+            alt="skinner releasing technique"
           />
           </div>
         </div>
