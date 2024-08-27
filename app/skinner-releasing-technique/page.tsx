@@ -236,17 +236,25 @@ export default function Example() {
                                 Susy Chetteau - Composition instantanée
                             </h2>
                             <p className="mt-6">
-                                Introduction à la composition instantanée.
-                                Exploration de l&apos;improvisation dansée en
-                                relation à soi et aux autres. Temps, espace,
-                                regard.
+                              Nourri par la pratique du matin, nous expérimenterons les principes fondamentaux de la composition instantanée. A travers des dispositifs chorégraphiques, des notions d&apos;anatomie et un focus sur la respiration.
                             </p>
                             <Link
                                 className="text-blue-500 font-semibold hover:text-blue-700 duration-200"
-                                href="/"
+                                href="https://www.compagnieobaluae.com/"
                                 target="blank">
                                 Susy&apos;s website
                             </Link>
+                            <h2 className="my-12 text-xl font-bold tracking-tight text-red-500">
+                                Petites bios
+                            </h2>
+                            <p className="italic my-5">
+                              <span className="font-bold">Cléo</span> est danseuse, dessinatrice et pédagogue. Diplômée du Laban Conservatoire of Dance de Londres en 2018, sa danse dialogue avec les pratiques somatiques et les arts martiaux. Enseignante certifiée en Skinner Releasing Technique. Diplômée des Beaux-Arts de Paris, son travail graphique offre des images baroque du soi physique. Dans un livre en cours, Movement Speculation, ses dessins sont assemblés avec les fragments d&apos;un poème composant ce qu&apos;elle appelle une <span className="font-medium">Anatomie de la transformation</span>. 
+                            </p>
+                            <p className="italic my-5">
+                            <span className="font-bold">Susy</span> est passionnée de mouvement et de mots. Formée dans la pédagogie de Françoise et Dominique Dupuy. Elle obtient le DE de danse en 2015. Elle se forme à l&apos;Analyse Fonctionnelle du Corps dans le Mouvement dansé (AFCMD) pour approfondir sa compréhension du corps et questionner les manières de 'mettre les corps en état de danse'.
+
+                              Sa recherche chorégraphique façonne le mouvement en s&apos;inspirant de textes, de photographies, d&apos;œuvres plastiques. L&apos;imaginaire y est une clé de voûte, permettant à l&apos;invisible de modeler le corps.
+                            </p>
                         </div>
                     </div>
                 </div>
