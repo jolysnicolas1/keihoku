@@ -1,11 +1,11 @@
-"use client"
-import React from 'react';
-import Link from 'next/link';
-import Day from './Day';
-import srt1 from 'public/srt1.jpg';
+"use client";
+import React from "react";
+import Link from "next/link";
+import Day from "./Day";
+import srt1 from "public/srt1.jpg";
 
-import Image from 'next/image';
-import Navbar from './Navbar';
+import Image from "next/image";
+import Navbar from "./Navbar";
 
 type Practice = {
   tag: string;
@@ -25,7 +25,10 @@ type Event = {
 };
 
 const nextEvent: Event = {
-  practice: { tag: "Skinner releasing & composition instantanée ", color: "red-500" },
+  practice: {
+    tag: "Skinner releasing & composition instantanée ",
+    color: "red-500",
+  },
   teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
   date: ["29.09", "28.09"],
   href: "/skinner-releasing-technique",
@@ -45,18 +48,13 @@ const daysData: Event[] = [
     href: "/manabu",
   },
   {
-    practice: { tag: "Skinner Releasing Technique & composition instantanée", color: "" },
+    practice: {
+      tag: "Skinner Releasing Technique & composition instantanée",
+      color: "",
+    },
     teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
     date: ["29-09", "28-09"],
     href: "/skinner-releasing-technique",
-
-  },
-  {
-    practice: { tag: "Incorporé l'invisible, fantômes et fictions métaboliques ", color: "" },
-    teacher: { tag: " Stéphane Léchit ", color: "" },
-    date: ["27-09", "26-09", "25-09", "24-09", "23-09"],
-    href: "https://presomptionsdepresences.com/INFO-STE_24-7",
-
   },
 ];
 
@@ -92,9 +90,12 @@ const pastEvents: Event[] = [
     href: "/manabu/aunkai/03-2024",
   },
   {
-    practice: { tag: "Tech Alexander & Danse Contemporaine", color: "neutral-900" },
+    practice: {
+      tag: "Tech Alexander & Danse Contemporaine",
+      color: "neutral-900",
+    },
     teacher: { tag: "Antonia Pons Capo", color: "blue-500" },
-    date: ["23-02/2024","22-02/2024","21-02/2024", "20-02/2024"],
+    date: ["23-02/2024", "22-02/2024", "21-02/2024", "20-02/2024"],
     href: "/antonia-pons-capo/stage-2024",
   },
   {
@@ -110,7 +111,10 @@ const pastEvents: Event[] = [
     href: "/manabu/aunkai/01-2024",
   },
   {
-    practice: { tag: "formation shiatsu/séminaire#2", color: "text-neutral-900" },
+    practice: {
+      tag: "formation shiatsu/séminaire#2",
+      color: "text-neutral-900",
+    },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["26-11/2023", "25-11/2023"],
     href: "/formation-shiatsu",
@@ -122,7 +126,10 @@ const pastEvents: Event[] = [
     href: "/manabu",
   },
   {
-    practice: { tag: "formation shiatsu/séminaire#1", color: "text-neutral-900" },
+    practice: {
+      tag: "formation shiatsu/séminaire#1",
+      color: "text-neutral-900",
+    },
     teacher: { tag: "Manabu Watanabe & Alain Tauch", color: "" },
     date: ["01-10/2023", "30-09/2023"],
     href: "/formation-shiatsu",
@@ -167,7 +174,14 @@ const pastEvents: Event[] = [
 
 // Fonction pour générer une couleur aléatoire
 const generateRandomColor = () => {
-  const colors = ["text-red-500", "text-blue-500", "text-green-500", "text-purple-500", "text-orange-500", "text-indigo-500"];
+  const colors = [
+    "text-red-500",
+    "text-blue-500",
+    "text-green-500",
+    "text-purple-500",
+    "text-orange-500",
+    "text-indigo-500",
+  ];
   const randomIndex = Math.floor(Math.random() * colors.length);
   return colors[randomIndex];
 };
@@ -246,14 +260,22 @@ export default function Home() {
       </div>
       <Link href={nextEvent.href}>
         <div className="relative border-y-4 border-l-4 border-blue-500 flex flex-col md:flex-row align-center text-xl md:justify-between lg:ml-12 xl:ml-24 2xl:ml-96">
-          <div className="absolute h-fit bg-blue-500 text-white px-3 py-0 uppercase text-xs font-bold">Inscripitons ouvertes</div>
+          <div className="absolute h-fit bg-blue-500 text-white px-3 py-0 uppercase text-xs font-bold">
+            Inscripitons ouvertes
+          </div>
           <div className="grow p-5 flex md:justify-center self-center">
             <div className="font-medium flex flex-col align-center">
               {nextEvent.date.map((dateItem, index) => (
                 <Day
                   key={index}
-                  practice={{ ...nextEvent.practice, color: nextEvent.practice.color }}
-                  teacher={{ ...nextEvent.teacher, color: nextEvent.teacher.color }}
+                  practice={{
+                    ...nextEvent.practice,
+                    color: nextEvent.practice.color,
+                  }}
+                  teacher={{
+                    ...nextEvent.teacher,
+                    color: nextEvent.teacher.color,
+                  }}
                   date={dateItem}
                   href={nextEvent.href}
                 />
@@ -261,20 +283,15 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col items-center">
-          <Image
-            className="md:border-l-4 md:border-blue-500 "
-            src={srt1}
-            height={300}
-            width={300}
-            alt="skinner releasing technique"
-          />
+            <Image
+              className="md:border-l-4 md:border-blue-500 "
+              src={srt1}
+              height={300}
+              width={300}
+              alt="skinner releasing technique"
+            />
           </div>
         </div>
-
-
-
-
-
       </Link>
       <div className="flex flex-col items-end p-1 sm:p-4 space-y-2 font-light lg:px-12 xl:px-24 2xl:px-44 text-xl">
         {renderPastEvents()}
@@ -282,8 +299,3 @@ export default function Home() {
     </main>
   );
 }
-
-
-
-
-
