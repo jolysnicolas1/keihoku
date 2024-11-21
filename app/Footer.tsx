@@ -1,13 +1,15 @@
 const navigation = {
   solutions: [
-    { name: 'Skinner Releasing Technique & Composition Instantanée', date: '28/29 septembre 2024', href: '/skinner-releasing-technique' },
-    { name: 'Aunkaï', date: '04 octobre 2024', href: '/manabu' },
-    { name: 'Danse contemporaine & technique Alexander', date: '20/21/22/23 février 2025', href: '/antonia-pons-capo/stage-2024' },
+    { name: "Aunkaï", date: "24 janvier 2025", href: "/manabu" },
+    { name: "Aunkaï", date: "29 novembre 2024", href: "/manabu" },
+    {
+      name: "Danse contemporaine & technique Alexander",
+      date: "20/21/22/23 février 2025",
+      href: "/antonia-pons-capo/stage-2025",
+    },
   ],
-  company: [
-    { name: 'La Dérive', href: 'https://pontmenou.jimdofree.com/' },
-  ],
-}
+  company: [{ name: "La Dérive", href: "https://pontmenou.jimdofree.com/" }],
+};
 
 export default function Footer() {
   return (
@@ -28,13 +30,17 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Agenda</h3>
+                <h3 className="text-sm font-semibold leading-6 text-white">
+                  Agenda
+                </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name} className="text-gray-300">
                       <a href={item.href} className="text-sm leading-6">
                         <p className="font-bold">{item.date}</p>
-                        <p className="hover:text-white duration-500">{item.name}</p>
+                        <p className="hover:text-white duration-500">
+                          {item.name}
+                        </p>
                       </a>
                     </li>
                   ))}
@@ -43,11 +49,16 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Le lieu</h3>
+                <h3 className="text-sm font-semibold leading-6 text-white">
+                  Le lieu
+                </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} target="blank" className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <a
+                        href={item.href}
+                        target="blank"
+                        className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
                       </a>
                     </li>
@@ -62,5 +73,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

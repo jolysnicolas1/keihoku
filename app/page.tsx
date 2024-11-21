@@ -31,7 +31,7 @@ const nextEvent: Event = {
   },
   teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
   date: ["29.11"],
-  href: "/manabu",
+  href: "/manabu/aunkai/11-2024",
 };
 
 const daysData: Event[] = [
