@@ -26,7 +26,7 @@ type Event = {
 
 const nextEvent: Event = {
   practice: {
-    tag: "Aunkaï ",
+    tag: "Aunkaï, Tanren & Kunren ",
     color: "red-500",
   },
   teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
@@ -45,16 +45,22 @@ const daysData: Event[] = [
     href: "/antonia-pons-capo/stage-2025",
   },
   {
-    practice: { tag: "formation shiatsu, séminaire #8 ", color: "" },
+    practice: { tag: "formation shiatsu, séminaire #9 ", color: "" },
     teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
-    date: ["01-12", "30-11"],
+    date: ["26-01", "25-01"],
     href: "/formation-shiatsu",
   },
   {
     practice: { tag: "Aunkaï ", color: "red-500" },
     teacher: { tag: " Manabu Watanabe & Alain Tauch", color: "red-500" },
-    date: ["29-11"],
+    date: ["24-01"],
     href: "/manabu",
+  },
+  {
+    practice: { tag: "formation shiatsu, séminaire #8 ", color: "" },
+    teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
+    date: ["01-12", "30-11"],
+    href: "/formation-shiatsu",
   },
 ];
 
