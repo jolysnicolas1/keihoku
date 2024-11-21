@@ -64,7 +64,7 @@ export default function Example() {
                 href="https://royal-day-741.notion.site/1451abd8fc6c8070aee7e2141a6b5f14?pvs=105"
                 className="w-fit bg-gradient-to-tr hover:bg-gradient-to-bl from-blue-700 hover:from-pink-500 via-purple-500 to-pink-500 font-semibold rounded-xl p-5 text-white flex gap-3 hover:bg-blue-700 my-3 duration-1000 whitespace-nowrap text-xl">
                 <UserIcon className="h-6 w-6" />
-                <span className="">Formulaire d'inscriptions</span>
+                <span className="">Formulaire d&apos;inscriptions</span>
               </a>
               <span>
                 <strong className="font-semibold text-gray-900">
