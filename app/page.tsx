@@ -26,12 +26,12 @@ type Event = {
 
 const nextEvent: Event = {
   practice: {
-    tag: "Skinner releasing & composition instantanée ",
+    tag: "Aunkaï ",
     color: "red-500",
   },
-  teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
-  date: ["29.09", "28.09"],
-  href: "/skinner-releasing-technique",
+  teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
+  date: ["29.11"],
+  href: "/manabu",
 };
 
 const daysData: Event[] = [
@@ -59,6 +59,27 @@ const daysData: Event[] = [
 ];
 
 const pastEvents: Event[] = [
+  {
+    practice: { tag: "formation shiatsu, séminaire #7 ", color: "" },
+    teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
+    date: ["05-10", "06-10"],
+    href: "/formation-shiatsu",
+  },
+  {
+    practice: { tag: "Aunkaï ", color: "red-500" },
+    teacher: { tag: " Manabu Watanabe & Alain Tauch", color: "red-500" },
+    date: ["04-10"],
+    href: "/manabu",
+  },
+  {
+    practice: {
+      tag: "Skinner Releasing Technique & composition instantanée",
+      color: "",
+    },
+    teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
+    date: ["29-09", "28-09"],
+    href: "/skinner-releasing-technique",
+  },
   {
     practice: { tag: "Souffle ", color: "" },
     teacher: { tag: " Michel RAJI ", color: "" },
