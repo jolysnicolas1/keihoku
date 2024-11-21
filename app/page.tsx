@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Day from "./Day";
-import srt1 from "public/srt1.jpg";
+import manabu from "public/manabu.webp";
 
 import Image from "next/image";
 import Navbar from "./Navbar";
@@ -312,7 +312,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <Image
               className="md:border-l-4 md:border-blue-500 "
-              src={srt1}
+              src={manabu}
               height={300}
               width={300}
               alt="skinner releasing technique"
