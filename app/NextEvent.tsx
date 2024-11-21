@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import Day from './Day';
-import cleo from 'public/cleo.png';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Day from "./Day";
+import manabu from "public/manabu.webp";
+import Image from "next/image";
 
 type NextEventProps = {
   practice: { tag: string; color: string };
@@ -36,10 +36,10 @@ const NextEvent: React.FC<NextEventProps> = ({
         <div className="flex flex-col items-center">
           <Image
             className="md:border-l-4 md:border-blue-500 "
-            src={cleo}
+            src={manabu}
             height={300}
             width={300}
-            alt="corea"
+            alt="manabu"
           />
         </div>
       </div>

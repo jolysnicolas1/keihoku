@@ -36,25 +36,25 @@ const nextEvent: Event = {
 
 const daysData: Event[] = [
   {
-    practice: { tag: "formation shiatsu, séminaire #7 ", color: "" },
+    practice: {
+      tag: "Danse & technique Alexander",
+      color: "",
+    },
+    teacher: { tag: " Antonia.Pons", color: "" },
+    date: ["23-02", "22-02", "21-02", "20-02"],
+    href: "/antonia-pons-capo/stage-2025",
+  },
+  {
+    practice: { tag: "formation shiatsu, séminaire #8 ", color: "" },
     teacher: { tag: " Manabu Watanabe & Alain Tauch ", color: "" },
-    date: ["05-10", "06-10"],
+    date: ["01-12", "30-11"],
     href: "/formation-shiatsu",
   },
   {
     practice: { tag: "Aunkaï ", color: "red-500" },
     teacher: { tag: " Manabu Watanabe & Alain Tauch", color: "red-500" },
-    date: ["04-10"],
+    date: ["29-11"],
     href: "/manabu",
-  },
-  {
-    practice: {
-      tag: "Skinner Releasing Technique & composition instantanée",
-      color: "",
-    },
-    teacher: { tag: " Susy.Chetteau.&.Cléo.Tabakian", color: "" },
-    date: ["29-09", "28-09"],
-    href: "/skinner-releasing-technique",
   },
 ];
 
